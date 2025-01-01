@@ -1,0 +1,4385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a99a2fbbe22c29f9ac2b4f477013211c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a99a2fbbe22c29f9ac2b4f477013211c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a99a2fbbe22c29f9ac2b4f477013211c = L.map(
+                "map_a99a2fbbe22c29f9ac2b4f477013211c",
+                {
+                    center: [51.5398, -0.142],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_13364e9603e849474dadfe4069454395 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_13364e9603e849474dadfe4069454395.addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var marker_e33ede2dd127ded838cfba878fbba8ff = L.marker(
+                [51.55408, -0.140543],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_ab35428e8ca3dfd75d47cf302f6eaf2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e33ede2dd127ded838cfba878fbba8ff.setIcon(icon_ab35428e8ca3dfd75d47cf302f6eaf2f);
+        
+    
+        var popup_8c5544bf101ba1702234ac7b4c661ec0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9afc629b9a5317040d2c58fa705194d = $(`<div id="html_e9afc629b9a5317040d2c58fa705194d" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 10 FORTESS ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_8c5544bf101ba1702234ac7b4c661ec0.setContent(html_e9afc629b9a5317040d2c58fa705194d);
+            
+        
+
+        marker_e33ede2dd127ded838cfba878fbba8ff.bindPopup(popup_8c5544bf101ba1702234ac7b4c661ec0)
+        ;
+
+        
+    
+    
+            var marker_6a90384fade2acff576fb4e83ad1f57b = L.marker(
+                [51.542949, -0.148846],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_9eddbc70e0c28a6fc0656c260dc6303b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6a90384fade2acff576fb4e83ad1f57b.setIcon(icon_9eddbc70e0c28a6fc0656c260dc6303b);
+        
+    
+        var popup_6c13d2432f396eda63a6bc3ea7d5f0f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25c1961083894461dc536fc0a405cf41 = $(`<div id="html_25c1961083894461dc536fc0a405cf41" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 18 CHALK FARM ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_6c13d2432f396eda63a6bc3ea7d5f0f3.setContent(html_25c1961083894461dc536fc0a405cf41);
+            
+        
+
+        marker_6a90384fade2acff576fb4e83ad1f57b.bindPopup(popup_6c13d2432f396eda63a6bc3ea7d5f0f3)
+        ;
+
+        
+    
+    
+            var marker_2c28758415cbc25b0a65dec7eb6ad781 = L.marker(
+                [51.539768, -0.143277],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_ca4db90546e7499d4db2195321785f39 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2c28758415cbc25b0a65dec7eb6ad781.setIcon(icon_ca4db90546e7499d4db2195321785f39);
+        
+    
+        var popup_28b98e5920e25b7c71d3ca21605407b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82bacac1478f53bf3bbe99600a6bd678 = $(`<div id="html_82bacac1478f53bf3bbe99600a6bd678" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 7 CAMDEN HIGH STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_28b98e5920e25b7c71d3ca21605407b5.setContent(html_82bacac1478f53bf3bbe99600a6bd678);
+            
+        
+
+        marker_2c28758415cbc25b0a65dec7eb6ad781.bindPopup(popup_28b98e5920e25b7c71d3ca21605407b5)
+        ;
+
+        
+    
+    
+            var marker_8a5207a0e96b63a165d4eb4a71a4bb41 = L.marker(
+                [51.543768, -0.14001],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_e6b011f72086da77c55e97362b412198 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8a5207a0e96b63a165d4eb4a71a4bb41.setIcon(icon_e6b011f72086da77c55e97362b412198);
+        
+    
+        var popup_95fdaf59e1a8f5f58757829770144d28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bed6b6dcd53c7dc776a55393c7dec47 = $(`<div id="html_1bed6b6dcd53c7dc776a55393c7dec47" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 1 ROYAL COLLEGE STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_95fdaf59e1a8f5f58757829770144d28.setContent(html_1bed6b6dcd53c7dc776a55393c7dec47);
+            
+        
+
+        marker_8a5207a0e96b63a165d4eb4a71a4bb41.bindPopup(popup_95fdaf59e1a8f5f58757829770144d28)
+        ;
+
+        
+    
+    
+            var marker_e487c921d035d6dd6dd1cc62b7d08d1d = L.marker(
+                [51.516822, -0.127893],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_1b82df7f6f333a3188a506663ef820ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e487c921d035d6dd6dd1cc62b7d08d1d.setIcon(icon_1b82df7f6f333a3188a506663ef820ef);
+        
+    
+        var popup_7f36b2c4ac00cfde03b90c3df3ffb75d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f16931656299e75aaa74e49d01929ebc = $(`<div id="html_f16931656299e75aaa74e49d01929ebc" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 16 NEW OXFORD STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_7f36b2c4ac00cfde03b90c3df3ffb75d.setContent(html_f16931656299e75aaa74e49d01929ebc);
+            
+        
+
+        marker_e487c921d035d6dd6dd1cc62b7d08d1d.bindPopup(popup_7f36b2c4ac00cfde03b90c3df3ffb75d)
+        ;
+
+        
+    
+    
+            var marker_cf82e6b89cf41a576c4b6b37c2b6ce51 = L.marker(
+                [51.536398, -0.191453],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_5f21c188b1b3d3de5fe38e7f40a77be0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cf82e6b89cf41a576c4b6b37c2b6ce51.setIcon(icon_5f21c188b1b3d3de5fe38e7f40a77be0);
+        
+    
+        var popup_8494c08919a3397f0370d715b49f3210 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c754ca21c8b08041db88f5634f448931 = $(`<div id="html_c754ca21c8b08041db88f5634f448931" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 7 KILBURN HIGH ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_8494c08919a3397f0370d715b49f3210.setContent(html_c754ca21c8b08041db88f5634f448931);
+            
+        
+
+        marker_cf82e6b89cf41a576c4b6b37c2b6ce51.bindPopup(popup_8494c08919a3397f0370d715b49f3210)
+        ;
+
+        
+    
+    
+            var marker_222d14cb72ebdd8cb96690bed6f882d6 = L.marker(
+                [51.529487, -0.133055],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_6625971186a4e27c65eb6fa200d49bcc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_222d14cb72ebdd8cb96690bed6f882d6.setIcon(icon_6625971186a4e27c65eb6fa200d49bcc);
+        
+    
+        var popup_ab09fbfacdc2c00ea0c054c47307f9bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ae45c4a327ba42951deb1f362919eb0 = $(`<div id="html_9ae45c4a327ba42951deb1f362919eb0" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 8 EVERSHOLT STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_ab09fbfacdc2c00ea0c054c47307f9bc.setContent(html_9ae45c4a327ba42951deb1f362919eb0);
+            
+        
+
+        marker_222d14cb72ebdd8cb96690bed6f882d6.bindPopup(popup_ab09fbfacdc2c00ea0c054c47307f9bc)
+        ;
+
+        
+    
+    
+            var marker_47b5a2ee5ebf98a8e02a054bfc8d7a7c = L.marker(
+                [51.554444, -0.165373],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_fca8b7212c751dc573d6897dacbea36d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_47b5a2ee5ebf98a8e02a054bfc8d7a7c.setIcon(icon_fca8b7212c751dc573d6897dacbea36d);
+        
+    
+        var popup_05f5121a74f4a9aab03e85060a156cda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d94f8004a0fa6f493ae937f68b6e0e3 = $(`<div id="html_5d94f8004a0fa6f493ae937f68b6e0e3" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 14 SOUTH END GREEN<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_05f5121a74f4a9aab03e85060a156cda.setContent(html_5d94f8004a0fa6f493ae937f68b6e0e3);
+            
+        
+
+        marker_47b5a2ee5ebf98a8e02a054bfc8d7a7c.bindPopup(popup_05f5121a74f4a9aab03e85060a156cda)
+        ;
+
+        
+    
+    
+            var marker_e45dac919dde542249be3c3093b7c2d6 = L.marker(
+                [51.551571, -0.166593],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_78834a4db3186504f0a5dfed31c2cdad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e45dac919dde542249be3c3093b7c2d6.setIcon(icon_78834a4db3186504f0a5dfed31c2cdad);
+        
+    
+        var popup_0d6c08191a36edc5e692906ab8fc9c6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba9c513b52a0fc1516e76418d0bb4ac0 = $(`<div id="html_ba9c513b52a0fc1516e76418d0bb4ac0" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 44 HAVERSTOCK HILL<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_0d6c08191a36edc5e692906ab8fc9c6a.setContent(html_ba9c513b52a0fc1516e76418d0bb4ac0);
+            
+        
+
+        marker_e45dac919dde542249be3c3093b7c2d6.bindPopup(popup_0d6c08191a36edc5e692906ab8fc9c6a)
+        ;
+
+        
+    
+    
+            var marker_db5c349c0975986d5e8e47d0309489ef = L.marker(
+                [51.546164, -0.141902],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_948cb8fa8e0338e852022b23b7c92a46 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_db5c349c0975986d5e8e47d0309489ef.setIcon(icon_948cb8fa8e0338e852022b23b7c92a46);
+        
+    
+        var popup_f83bf9ab7ab0226c81a1feb7282e6a74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4c5199e8b1b926c73e84958556f1d92 = $(`<div id="html_d4c5199e8b1b926c73e84958556f1d92" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 33 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_f83bf9ab7ab0226c81a1feb7282e6a74.setContent(html_d4c5199e8b1b926c73e84958556f1d92);
+            
+        
+
+        marker_db5c349c0975986d5e8e47d0309489ef.bindPopup(popup_f83bf9ab7ab0226c81a1feb7282e6a74)
+        ;
+
+        
+    
+    
+            var marker_acdb4c8af8d5d8e5119533a2b54c012a = L.marker(
+                [51.55537, -0.139588],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_e50260e6b282d713cdeb6f780c01524a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_acdb4c8af8d5d8e5119533a2b54c012a.setIcon(icon_e50260e6b282d713cdeb6f780c01524a);
+        
+    
+        var popup_ec8acf1412be22e9e860354bad2763a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c12e789ec26e5e580b0fd3c07021b81 = $(`<div id="html_3c12e789ec26e5e580b0fd3c07021b81" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on CCTV Column  FORTESS ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_ec8acf1412be22e9e860354bad2763a1.setContent(html_3c12e789ec26e5e580b0fd3c07021b81);
+            
+        
+
+        marker_acdb4c8af8d5d8e5119533a2b54c012a.bindPopup(popup_ec8acf1412be22e9e860354bad2763a1)
+        ;
+
+        
+    
+    
+            var marker_db88ed8ad41ac8deeee18467f8f63f83 = L.marker(
+                [51.540498, -0.14407],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_20530f0cfa20dfcf944d0e73d767928b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_db88ed8ad41ac8deeee18467f8f63f83.setIcon(icon_20530f0cfa20dfcf944d0e73d767928b);
+        
+    
+        var popup_4cd60158b765c78faf8dc035a200ec43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9147c8c62dac32c9d96f2852cbf3aefd = $(`<div id="html_9147c8c62dac32c9d96f2852cbf3aefd" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 13 CAMDEN HIGH STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_4cd60158b765c78faf8dc035a200ec43.setContent(html_9147c8c62dac32c9d96f2852cbf3aefd);
+            
+        
+
+        marker_db88ed8ad41ac8deeee18467f8f63f83.bindPopup(popup_4cd60158b765c78faf8dc035a200ec43)
+        ;
+
+        
+    
+    
+            var marker_5ebb9d259d0ace4040fcf270a00d1010 = L.marker(
+                [51.540113, -0.143688],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_6fa2406864367be68148e8cac107f5f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5ebb9d259d0ace4040fcf270a00d1010.setIcon(icon_6fa2406864367be68148e8cac107f5f3);
+        
+    
+        var popup_f89596dbc1ef3359f62907ff1ce90634 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc0a3436b511fbf7e6a7aea55e3b492b = $(`<div id="html_dc0a3436b511fbf7e6a7aea55e3b492b" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 10 CAMDEN HIGH STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_f89596dbc1ef3359f62907ff1ce90634.setContent(html_dc0a3436b511fbf7e6a7aea55e3b492b);
+            
+        
+
+        marker_5ebb9d259d0ace4040fcf270a00d1010.bindPopup(popup_f89596dbc1ef3359f62907ff1ce90634)
+        ;
+
+        
+    
+    
+            var marker_cd5c18b614826e5ea683bcbdc21602f4 = L.marker(
+                [51.556595, -0.138524],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_213e96f7c81917fddb008e550d6bf376 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cd5c18b614826e5ea683bcbdc21602f4.setIcon(icon_213e96f7c81917fddb008e550d6bf376);
+        
+    
+        var popup_56fbaa6d4202549e5f0ec9ef851700e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4d06acf114b8b27e6a9b7f09a7ad7d5 = $(`<div id="html_e4d06acf114b8b27e6a9b7f09a7ad7d5" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 21 FORTESS ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_56fbaa6d4202549e5f0ec9ef851700e2.setContent(html_e4d06acf114b8b27e6a9b7f09a7ad7d5);
+            
+        
+
+        marker_cd5c18b614826e5ea683bcbdc21602f4.bindPopup(popup_56fbaa6d4202549e5f0ec9ef851700e2)
+        ;
+
+        
+    
+    
+            var marker_00b9f145cb886c9f510b4cf32c058f20 = L.marker(
+                [51.556227, -0.178002],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_2fb03fce47b1878f8edc6ff6d408a8cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_00b9f145cb886c9f510b4cf32c058f20.setIcon(icon_2fb03fce47b1878f8edc6ff6d408a8cd);
+        
+    
+        var popup_d82d2c098393812e4ba2641bff12fb9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa868c4c0528fc1fed5955f86135ae14 = $(`<div id="html_fa868c4c0528fc1fed5955f86135ae14" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 10 HAMPSTEAD HIGH STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_d82d2c098393812e4ba2641bff12fb9f.setContent(html_fa868c4c0528fc1fed5955f86135ae14);
+            
+        
+
+        marker_00b9f145cb886c9f510b4cf32c058f20.bindPopup(popup_d82d2c098393812e4ba2641bff12fb9f)
+        ;
+
+        
+    
+    
+            var marker_8598a693b6afb93524cc874eed0637b1 = L.marker(
+                [51.540952, -0.196727],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_4c89f3b53178cf8baa8650e518d2fb20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8598a693b6afb93524cc874eed0637b1.setIcon(icon_4c89f3b53178cf8baa8650e518d2fb20);
+        
+    
+        var popup_6ebdf1bf90cf54a18fe5939931636992 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e068dd442f85e5a6a69bd0f9409d8d7 = $(`<div id="html_0e068dd442f85e5a6a69bd0f9409d8d7" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column  KILBURN HIGH ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_6ebdf1bf90cf54a18fe5939931636992.setContent(html_0e068dd442f85e5a6a69bd0f9409d8d7);
+            
+        
+
+        marker_8598a693b6afb93524cc874eed0637b1.bindPopup(popup_6ebdf1bf90cf54a18fe5939931636992)
+        ;
+
+        
+    
+    
+            var marker_6023fa14f7d5e2045bb9bdeb6dfcbfe1 = L.marker(
+                [51.550408, -0.154364],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_76c72a4261578831b2c27c7658d74c79 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6023fa14f7d5e2045bb9bdeb6dfcbfe1.setIcon(icon_76c72a4261578831b2c27c7658d74c79);
+        
+    
+        var popup_c680ea9b8a9e9671bdcdff30dac1a7ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bcde6daf7ea0292bd58962e765a0ca9b = $(`<div id="html_bcde6daf7ea0292bd58962e765a0ca9b" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 22 MALDEN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_c680ea9b8a9e9671bdcdff30dac1a7ed.setContent(html_bcde6daf7ea0292bd58962e765a0ca9b);
+            
+        
+
+        marker_6023fa14f7d5e2045bb9bdeb6dfcbfe1.bindPopup(popup_c680ea9b8a9e9671bdcdff30dac1a7ed)
+        ;
+
+        
+    
+    
+            var marker_824de4be812b1817ad1fc7b382f22e4a = L.marker(
+                [51.552118, -0.141702],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_7ff9bf5e1fc2a2bebda05d3dc2df1d06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_824de4be812b1817ad1fc7b382f22e4a.setIcon(icon_7ff9bf5e1fc2a2bebda05d3dc2df1d06);
+        
+    
+        var popup_1acea28a5a49564490c1f7f615ce3af9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd5418fb01b048d559d6d3ee925870ed = $(`<div id="html_fd5418fb01b048d559d6d3ee925870ed" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 2 HIGHGATE ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_1acea28a5a49564490c1f7f615ce3af9.setContent(html_fd5418fb01b048d559d6d3ee925870ed);
+            
+        
+
+        marker_824de4be812b1817ad1fc7b382f22e4a.bindPopup(popup_1acea28a5a49564490c1f7f615ce3af9)
+        ;
+
+        
+    
+    
+            var marker_0532eefd23f29847a228d9e5b9e63ac4 = L.marker(
+                [51.551163, -0.140803],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_df47c2f85a7dc3e0b96a0ee07f3ba870 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0532eefd23f29847a228d9e5b9e63ac4.setIcon(icon_df47c2f85a7dc3e0b96a0ee07f3ba870);
+        
+    
+        var popup_fe8567bb7e7a3c37772e7043a6283361 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb30deea5201d0ab0272cdc04510a292 = $(`<div id="html_eb30deea5201d0ab0272cdc04510a292" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 5 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_fe8567bb7e7a3c37772e7043a6283361.setContent(html_eb30deea5201d0ab0272cdc04510a292);
+            
+        
+
+        marker_0532eefd23f29847a228d9e5b9e63ac4.bindPopup(popup_fe8567bb7e7a3c37772e7043a6283361)
+        ;
+
+        
+    
+    
+            var marker_18cc2a8c027623bf3a5449ee3bbe676c = L.marker(
+                [51.542226, -0.156009],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_0aa226565731afc0d344f06aacedd24a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_18cc2a8c027623bf3a5449ee3bbe676c.setIcon(icon_0aa226565731afc0d344f06aacedd24a);
+        
+    
+        var popup_04e3ec363ff19bbfdca2709ae9991552 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ef1c232ad7cfd3a3e266b6578ea6ec1 = $(`<div id="html_7ef1c232ad7cfd3a3e266b6578ea6ec1" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 11 REGENT'S PARK ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_04e3ec363ff19bbfdca2709ae9991552.setContent(html_7ef1c232ad7cfd3a3e266b6578ea6ec1);
+            
+        
+
+        marker_18cc2a8c027623bf3a5449ee3bbe676c.bindPopup(popup_04e3ec363ff19bbfdca2709ae9991552)
+        ;
+
+        
+    
+    
+            var marker_d25b778337427e332f92b0e2c0c21773 = L.marker(
+                [51.544052, -0.141447],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_dd0d54d88cb02fd3b752d62d98ef6281 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d25b778337427e332f92b0e2c0c21773.setIcon(icon_dd0d54d88cb02fd3b752d62d98ef6281);
+        
+    
+        var popup_5438391025f12b1ca4e6625911483738 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb7eaaff551044a63729938fe4d01370 = $(`<div id="html_fb7eaaff551044a63729938fe4d01370" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 45 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_5438391025f12b1ca4e6625911483738.setContent(html_fb7eaaff551044a63729938fe4d01370);
+            
+        
+
+        marker_d25b778337427e332f92b0e2c0c21773.bindPopup(popup_5438391025f12b1ca4e6625911483738)
+        ;
+
+        
+    
+    
+            var marker_9d440e85ba6e036c8e6032a8daf4c547 = L.marker(
+                [51.533651, -0.126585],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_bdfc17442d6827103d56785f2d59bf02 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9d440e85ba6e036c8e6032a8daf4c547.setIcon(icon_bdfc17442d6827103d56785f2d59bf02);
+        
+    
+        var popup_11e398653ad3f53de56e9ee37f7c83be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bffc3753b4587b81b3be553fce16cb8 = $(`<div id="html_6bffc3753b4587b81b3be553fce16cb8" style="width: 100.0%; height: 100.0%;">Name: Shared Digital Guest at Pancras Square Library<br>Type: Shared Digital Guest<br>Range: 10m</div>`)[0];
+                popup_11e398653ad3f53de56e9ee37f7c83be.setContent(html_6bffc3753b4587b81b3be553fce16cb8);
+            
+        
+
+        marker_9d440e85ba6e036c8e6032a8daf4c547.bindPopup(popup_11e398653ad3f53de56e9ee37f7c83be)
+        ;
+
+        
+    
+    
+            var marker_0ffe772084232a54c77ccc7b3b197e11 = L.marker(
+                [51.550992, -0.191426],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_810939f64eee5d162e56d686774343f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0ffe772084232a54c77ccc7b3b197e11.setIcon(icon_810939f64eee5d162e56d686774343f0);
+        
+    
+        var popup_dbb9fcd099cf86a874549fa892640b91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_378a773ed062589dca09975bcb0008f4 = $(`<div id="html_378a773ed062589dca09975bcb0008f4" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 59 WEST END LANE<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_dbb9fcd099cf86a874549fa892640b91.setContent(html_378a773ed062589dca09975bcb0008f4);
+            
+        
+
+        marker_0ffe772084232a54c77ccc7b3b197e11.bindPopup(popup_dbb9fcd099cf86a874549fa892640b91)
+        ;
+
+        
+    
+    
+            var marker_3cdbb111c384fed149b317681a6a8bd0 = L.marker(
+                [51.542661, -0.155361],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_95fe029f8c9e9da581df817454cd6c75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3cdbb111c384fed149b317681a6a8bd0.setIcon(icon_95fe029f8c9e9da581df817454cd6c75);
+        
+    
+        var popup_b9c8f4262cf2db4f015e5bde2d9396a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e472d17ea784dc7072c167bf18963d8 = $(`<div id="html_6e472d17ea784dc7072c167bf18963d8" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 9 REGENT'S PARK ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_b9c8f4262cf2db4f015e5bde2d9396a2.setContent(html_6e472d17ea784dc7072c167bf18963d8);
+            
+        
+
+        marker_3cdbb111c384fed149b317681a6a8bd0.bindPopup(popup_b9c8f4262cf2db4f015e5bde2d9396a2)
+        ;
+
+        
+    
+    
+            var marker_0676eb5bb396caf3368410c4bf656912 = L.marker(
+                [51.563791, -0.144066],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_58e834af748c07d37bc6f9bc246e3ec1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0676eb5bb396caf3368410c4bf656912.setIcon(icon_58e834af748c07d37bc6f9bc246e3ec1);
+        
+    
+        var popup_b5c8356b72557ae5c41ca33e28693e50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_214d21b2f75222488e563e32d269efba = $(`<div id="html_214d21b2f75222488e563e32d269efba" style="width: 100.0%; height: 100.0%;">Name: Shared Digital Guest at Highgate Library<br>Type: Shared Digital Guest<br>Range: 10m</div>`)[0];
+                popup_b5c8356b72557ae5c41ca33e28693e50.setContent(html_214d21b2f75222488e563e32d269efba);
+            
+        
+
+        marker_0676eb5bb396caf3368410c4bf656912.bindPopup(popup_b5c8356b72557ae5c41ca33e28693e50)
+        ;
+
+        
+    
+    
+            var marker_225c46b4dd20874310589235c571513f = L.marker(
+                [51.555253, -0.166076],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_fded9ac9bfed620234c49e0985ed3fbe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_225c46b4dd20874310589235c571513f.setIcon(icon_fded9ac9bfed620234c49e0985ed3fbe);
+        
+    
+        var popup_940c2226107f9b9876e97eec9299506b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78e51fcc01fb85bfd15d7d966616bee0 = $(`<div id="html_78e51fcc01fb85bfd15d7d966616bee0" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 1 PARLIAMENT HILL<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_940c2226107f9b9876e97eec9299506b.setContent(html_78e51fcc01fb85bfd15d7d966616bee0);
+            
+        
+
+        marker_225c46b4dd20874310589235c571513f.bindPopup(popup_940c2226107f9b9876e97eec9299506b)
+        ;
+
+        
+    
+    
+            var marker_c7d4a9de8acd32f23f67f79ddc423e73 = L.marker(
+                [51.540143, -0.195751],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_4be94b3fcc621c8a1fc8a2d9fb147df3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c7d4a9de8acd32f23f67f79ddc423e73.setIcon(icon_4be94b3fcc621c8a1fc8a2d9fb147df3);
+        
+    
+        var popup_116035d2551d0ca86704e6954945f774 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_531de9eaa068f15975928242b51ad096 = $(`<div id="html_531de9eaa068f15975928242b51ad096" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column  KILBURN HIGH ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_116035d2551d0ca86704e6954945f774.setContent(html_531de9eaa068f15975928242b51ad096);
+            
+        
+
+        marker_c7d4a9de8acd32f23f67f79ddc423e73.bindPopup(popup_116035d2551d0ca86704e6954945f774)
+        ;
+
+        
+    
+    
+            var marker_d7a964ee643fd15321e624ee8d4fb048 = L.marker(
+                [51.552342, -0.16736],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_155fd973b4892c1f4401f238e7e7b980 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d7a964ee643fd15321e624ee8d4fb048.setIcon(icon_155fd973b4892c1f4401f238e7e7b980);
+        
+    
+        var popup_b1327f5dd757a2ecd35c08a83b1e69ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09dcbb6b8040a1511af9adba984aeedd = $(`<div id="html_09dcbb6b8040a1511af9adba984aeedd" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 47 HAVERSTOCK HILL<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_b1327f5dd757a2ecd35c08a83b1e69ac.setContent(html_09dcbb6b8040a1511af9adba984aeedd);
+            
+        
+
+        marker_d7a964ee643fd15321e624ee8d4fb048.bindPopup(popup_b1327f5dd757a2ecd35c08a83b1e69ac)
+        ;
+
+        
+    
+    
+            var marker_fd46a802542f339cffa6bd577331b4ed = L.marker(
+                [51.518288, -0.13189],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_233fea114d949e3e20a3d5daa6c075a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fd46a802542f339cffa6bd577331b4ed.setIcon(icon_233fea114d949e3e20a3d5daa6c075a8);
+        
+    
+        var popup_1e7350e4932ea941772033d0a9b0cee3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9865f7724260a45dc087744b481f1ec1 = $(`<div id="html_9865f7724260a45dc087744b481f1ec1" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 8 TOTTENHAM COURT ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_1e7350e4932ea941772033d0a9b0cee3.setContent(html_9865f7724260a45dc087744b481f1ec1);
+            
+        
+
+        marker_fd46a802542f339cffa6bd577331b4ed.bindPopup(popup_1e7350e4932ea941772033d0a9b0cee3)
+        ;
+
+        
+    
+    
+            var marker_d3aa7df17dcfa63f6d9bcc6dd97b2f81 = L.marker(
+                [51.543499, -0.141815],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_7f92e12b4b394b9402f28dc5232aa20f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d3aa7df17dcfa63f6d9bcc6dd97b2f81.setIcon(icon_7f92e12b4b394b9402f28dc5232aa20f);
+        
+    
+        var popup_4bc03e4a96287c08d99bf3b1b5272467 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b29c6cbd947b05094e06542de6a7a85 = $(`<div id="html_2b29c6cbd947b05094e06542de6a7a85" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 48 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_4bc03e4a96287c08d99bf3b1b5272467.setContent(html_2b29c6cbd947b05094e06542de6a7a85);
+            
+        
+
+        marker_d3aa7df17dcfa63f6d9bcc6dd97b2f81.bindPopup(popup_4bc03e4a96287c08d99bf3b1b5272467)
+        ;
+
+        
+    
+    
+            var marker_976ee5ea8bc1bb2afd0598ecfd0aa3f4 = L.marker(
+                [51.553754, -0.163719],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_37070a8e10365916198566f09511ec94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_976ee5ea8bc1bb2afd0598ecfd0aa3f4.setIcon(icon_37070a8e10365916198566f09511ec94);
+        
+    
+        var popup_d2e77c8fdbf5a2b40c14eb30dc1ff2dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab0f09a6d6f8948444116d2cf0a2ae63 = $(`<div id="html_ab0f09a6d6f8948444116d2cf0a2ae63" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 20 FLEET ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_d2e77c8fdbf5a2b40c14eb30dc1ff2dd.setContent(html_ab0f09a6d6f8948444116d2cf0a2ae63);
+            
+        
+
+        marker_976ee5ea8bc1bb2afd0598ecfd0aa3f4.bindPopup(popup_d2e77c8fdbf5a2b40c14eb30dc1ff2dd)
+        ;
+
+        
+    
+    
+            var marker_4c8b64656d535e76c30e5bea5a77a297 = L.marker(
+                [51.550212, -0.191689],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_4a158c71c53a65279f4c91a046014291 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4c8b64656d535e76c30e5bea5a77a297.setIcon(icon_4a158c71c53a65279f4c91a046014291);
+        
+    
+        var popup_5da91977244851d02e221fd80fe317d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f3a5ca136cb7d99fd9f87a7ad832d4e = $(`<div id="html_4f3a5ca136cb7d99fd9f87a7ad832d4e" style="width: 100.0%; height: 100.0%;">Name: Shared Digital Guest at West Hampstead Library<br>Type: Shared Digital Guest<br>Range: 10m</div>`)[0];
+                popup_5da91977244851d02e221fd80fe317d0.setContent(html_4f3a5ca136cb7d99fd9f87a7ad832d4e);
+            
+        
+
+        marker_4c8b64656d535e76c30e5bea5a77a297.bindPopup(popup_5da91977244851d02e221fd80fe317d0)
+        ;
+
+        
+    
+    
+            var marker_817ed2c0036dd1faf0a3bae700731d45 = L.marker(
+                [51.540107, -0.135593],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_ed5fa1edea54df721fdcf644530cd56d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_817ed2c0036dd1faf0a3bae700731d45.setIcon(icon_ed5fa1edea54df721fdcf644530cd56d);
+        
+    
+        var popup_3070c299ba9e9ea131e8e3186055d144 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b69e3e0ee61d56092977213696e591c2 = $(`<div id="html_b69e3e0ee61d56092977213696e591c2" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 21 ST PANCRAS WAY<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_3070c299ba9e9ea131e8e3186055d144.setContent(html_b69e3e0ee61d56092977213696e591c2);
+            
+        
+
+        marker_817ed2c0036dd1faf0a3bae700731d45.bindPopup(popup_3070c299ba9e9ea131e8e3186055d144)
+        ;
+
+        
+    
+    
+            var marker_33637d2b4fd1a995312b6e95d82eebfd = L.marker(
+                [51.540776, -0.135437],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_8f1624c2cc72b73d0d07fffe14c4b40f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_33637d2b4fd1a995312b6e95d82eebfd.setIcon(icon_8f1624c2cc72b73d0d07fffe14c4b40f);
+        
+    
+        var popup_1bef13f761d330810670eba974e6092d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cc3963966698c864db88d40142c84f7 = $(`<div id="html_3cc3963966698c864db88d40142c84f7" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 19 ST PANCRAS WAY<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_1bef13f761d330810670eba974e6092d.setContent(html_3cc3963966698c864db88d40142c84f7);
+            
+        
+
+        marker_33637d2b4fd1a995312b6e95d82eebfd.bindPopup(popup_1bef13f761d330810670eba974e6092d)
+        ;
+
+        
+    
+    
+            var marker_98496f2e6b4bb02cf6cadd6c0127d02d = L.marker(
+                [51.528192, -0.13162],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_8dd6fd0411f905bfbb22a33547b7280a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_98496f2e6b4bb02cf6cadd6c0127d02d.setIcon(icon_8dd6fd0411f905bfbb22a33547b7280a);
+        
+    
+        var popup_024cf399e5cc7ae705ad3038e2c6905d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba40bb9188fa088aa6ef0fc06f426ca7 = $(`<div id="html_ba40bb9188fa088aa6ef0fc06f426ca7" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 2 EVERSHOLT STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_024cf399e5cc7ae705ad3038e2c6905d.setContent(html_ba40bb9188fa088aa6ef0fc06f426ca7);
+            
+        
+
+        marker_98496f2e6b4bb02cf6cadd6c0127d02d.bindPopup(popup_024cf399e5cc7ae705ad3038e2c6905d)
+        ;
+
+        
+    
+    
+            var marker_8a6781e3a86273e0271a1e7dd7c44efa = L.marker(
+                [51.540846, -0.142212],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_ef50a14de0e3f8f97d5be069c9f0f915 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8a6781e3a86273e0271a1e7dd7c44efa.setIcon(icon_ef50a14de0e3f8f97d5be069c9f0f915);
+        
+    
+        var popup_4c6ad26597a303840e6cd499c971457b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b11f3be801ea8667db4bbd593e11268b = $(`<div id="html_b11f3be801ea8667db4bbd593e11268b" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 60 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_4c6ad26597a303840e6cd499c971457b.setContent(html_b11f3be801ea8667db4bbd593e11268b);
+            
+        
+
+        marker_8a6781e3a86273e0271a1e7dd7c44efa.bindPopup(popup_4c6ad26597a303840e6cd499c971457b)
+        ;
+
+        
+    
+    
+            var marker_11b093d83b11fb61bf89d82a97c31049 = L.marker(
+                [51.546521, -0.145327],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_76d4512cfd6bae622ca4bad33ad82e01 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_11b093d83b11fb61bf89d82a97c31049.setIcon(icon_76d4512cfd6bae622ca4bad33ad82e01);
+        
+    
+        var popup_6d3576035054a708742d7b9b37db66fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96e703efa3736d726fc4ef4b19d43c1f = $(`<div id="html_96e703efa3736d726fc4ef4b19d43c1f" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 20 PRINCE OF WALES ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_6d3576035054a708742d7b9b37db66fc.setContent(html_96e703efa3736d726fc4ef4b19d43c1f);
+            
+        
+
+        marker_11b093d83b11fb61bf89d82a97c31049.bindPopup(popup_6d3576035054a708742d7b9b37db66fc)
+        ;
+
+        
+    
+    
+            var marker_e387c75060437b013bc633fae9e6d065 = L.marker(
+                [51.54999, -0.140513],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_e863d51e4a18af39a2d0b21ca517d650 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e387c75060437b013bc633fae9e6d065.setIcon(icon_e863d51e4a18af39a2d0b21ca517d650);
+        
+    
+        var popup_77e23225e272b33efe262f617b9369d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af6878ebccde808be659848ce2a3135c = $(`<div id="html_af6878ebccde808be659848ce2a3135c" style="width: 100.0%; height: 100.0%;">Name: Shared Digital Guest at Kentish Town Library<br>Type: Shared Digital Guest<br>Range: 10m</div>`)[0];
+                popup_77e23225e272b33efe262f617b9369d8.setContent(html_af6878ebccde808be659848ce2a3135c);
+            
+        
+
+        marker_e387c75060437b013bc633fae9e6d065.bindPopup(popup_77e23225e272b33efe262f617b9369d8)
+        ;
+
+        
+    
+    
+            var marker_9ec142fcdbbfce0859a9568e80453c4a = L.marker(
+                [51.546524, -0.141658],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_cc362be1911b6db3f1edbce633d4d7b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9ec142fcdbbfce0859a9568e80453c4a.setIcon(icon_cc362be1911b6db3f1edbce633d4d7b5);
+        
+    
+        var popup_b851665fc8dad19cd6b661c6e3601219 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2c46c1943b1de669e62f510726bc4b9 = $(`<div id="html_e2c46c1943b1de669e62f510726bc4b9" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 30 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_b851665fc8dad19cd6b661c6e3601219.setContent(html_e2c46c1943b1de669e62f510726bc4b9);
+            
+        
+
+        marker_9ec142fcdbbfce0859a9568e80453c4a.bindPopup(popup_b851665fc8dad19cd6b661c6e3601219)
+        ;
+
+        
+    
+    
+            var marker_6c8066ef7a63c472b8d157c2507577df = L.marker(
+                [51.543631, -0.151775],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_07eb7114ff85603fdc359bd8d4a15aa8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6c8066ef7a63c472b8d157c2507577df.setIcon(icon_07eb7114ff85603fdc359bd8d4a15aa8);
+        
+    
+        var popup_1828a49075558b36a4b8011ec983e746 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7103c49dc5bc318affc810164c801ea = $(`<div id="html_e7103c49dc5bc318affc810164c801ea" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 31 CHALK FARM ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_1828a49075558b36a4b8011ec983e746.setContent(html_e7103c49dc5bc318affc810164c801ea);
+            
+        
+
+        marker_6c8066ef7a63c472b8d157c2507577df.bindPopup(popup_1828a49075558b36a4b8011ec983e746)
+        ;
+
+        
+    
+    
+            var marker_f73ec57799efce1a9ed76d9e3e179f0f = L.marker(
+                [51.539632, -0.135263],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_b650181cb3f2be886f44808b5be4127f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f73ec57799efce1a9ed76d9e3e179f0f.setIcon(icon_b650181cb3f2be886f44808b5be4127f);
+        
+    
+        var popup_60667688d9a9ab20a02a01c9160c6a47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bcb335858a3e93714c47c42ac61d7ac2 = $(`<div id="html_bcb335858a3e93714c47c42ac61d7ac2" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 23 ST PANCRAS WAY<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_60667688d9a9ab20a02a01c9160c6a47.setContent(html_bcb335858a3e93714c47c42ac61d7ac2);
+            
+        
+
+        marker_f73ec57799efce1a9ed76d9e3e179f0f.bindPopup(popup_60667688d9a9ab20a02a01c9160c6a47)
+        ;
+
+        
+    
+    
+            var marker_0679dfe9760d3516301a62f55d2c7e51 = L.marker(
+                [51.553655, -0.140806],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_6b16be5eb15648d053a2f8e5c36b77d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0679dfe9760d3516301a62f55d2c7e51.setIcon(icon_6b16be5eb15648d053a2f8e5c36b77d5);
+        
+    
+        var popup_fff854f145d569d86f530fb01c69767e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_619f0cc9cef7baa495978a4fa8d876dc = $(`<div id="html_619f0cc9cef7baa495978a4fa8d876dc" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 8 FORTESS ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_fff854f145d569d86f530fb01c69767e.setContent(html_619f0cc9cef7baa495978a4fa8d876dc);
+            
+        
+
+        marker_0679dfe9760d3516301a62f55d2c7e51.bindPopup(popup_fff854f145d569d86f530fb01c69767e)
+        ;
+
+        
+    
+    
+            var marker_8f672a3d164fe2ef507682b6dd310753 = L.marker(
+                [51.517721, -0.120234],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_9d1eb13d001a423200ef83b505a78687 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8f672a3d164fe2ef507682b6dd310753.setIcon(icon_9d1eb13d001a423200ef83b505a78687);
+        
+    
+        var popup_9b58cac659847ffe757506ee3c8850d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fa81071659084d87006b408c497d247 = $(`<div id="html_8fa81071659084d87006b408c497d247" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 24 HIGH HOLBORN<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_9b58cac659847ffe757506ee3c8850d7.setContent(html_8fa81071659084d87006b408c497d247);
+            
+        
+
+        marker_8f672a3d164fe2ef507682b6dd310753.bindPopup(popup_9b58cac659847ffe757506ee3c8850d7)
+        ;
+
+        
+    
+    
+            var marker_82ce98600de36d1512f3326d974aa480 = L.marker(
+                [51.546698, -0.143853],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_113b468bc8b417e84601a4b4fbef9623 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_82ce98600de36d1512f3326d974aa480.setIcon(icon_113b468bc8b417e84601a4b4fbef9623);
+        
+    
+        var popup_7a8c8e5d49d7ced21b131497badde067 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ad11d744527923f34af0fe8d51cda8c = $(`<div id="html_1ad11d744527923f34af0fe8d51cda8c" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 23 PRINCE OF WALES ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_7a8c8e5d49d7ced21b131497badde067.setContent(html_1ad11d744527923f34af0fe8d51cda8c);
+            
+        
+
+        marker_82ce98600de36d1512f3326d974aa480.bindPopup(popup_7a8c8e5d49d7ced21b131497badde067)
+        ;
+
+        
+    
+    
+            var marker_1f5c2bd545e8854e42d211c74c2d7131 = L.marker(
+                [51.526945, -0.135501],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_afb994ca9e10ffd23af228f12c3afe65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f5c2bd545e8854e42d211c74c2d7131.setIcon(icon_afb994ca9e10ffd23af228f12c3afe65);
+        
+    
+        var popup_e4c99f55d2c1ab33fb12e561834609aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7df9732c90f44450429144bba907194b = $(`<div id="html_7df9732c90f44450429144bba907194b" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 3 EUSTON STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_e4c99f55d2c1ab33fb12e561834609aa.setContent(html_7df9732c90f44450429144bba907194b);
+            
+        
+
+        marker_1f5c2bd545e8854e42d211c74c2d7131.bindPopup(popup_e4c99f55d2c1ab33fb12e561834609aa)
+        ;
+
+        
+    
+    
+            var marker_c26e824f033a53ad92887a15dbeeab2c = L.marker(
+                [51.549298, -0.141047],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_97b1b261f7c3e43a16ecee651a36b9b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c26e824f033a53ad92887a15dbeeab2c.setIcon(icon_97b1b261f7c3e43a16ecee651a36b9b6);
+        
+    
+        var popup_175b9d6a4f20adca53499a0e84114d8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95b9c2f7eb7ff982ba1c35a70be40fc8 = $(`<div id="html_95b9c2f7eb7ff982ba1c35a70be40fc8" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 16 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_175b9d6a4f20adca53499a0e84114d8d.setContent(html_95b9c2f7eb7ff982ba1c35a70be40fc8);
+            
+        
+
+        marker_c26e824f033a53ad92887a15dbeeab2c.bindPopup(popup_175b9d6a4f20adca53499a0e84114d8d)
+        ;
+
+        
+    
+    
+            var marker_7acdf867d97b630e48203ee71c27ffdf = L.marker(
+                [51.552102, -0.192972],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_ce4398926658fe28460965e24d62ecc0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7acdf867d97b630e48203ee71c27ffdf.setIcon(icon_ce4398926658fe28460965e24d62ecc0);
+        
+    
+        var popup_7cbe8ef585b61f8eb4ee7c1845f4990a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d821fe3e55c544c61b66aaf4f9a5594d = $(`<div id="html_d821fe3e55c544c61b66aaf4f9a5594d" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 69 WEST END LANE<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_7cbe8ef585b61f8eb4ee7c1845f4990a.setContent(html_d821fe3e55c544c61b66aaf4f9a5594d);
+            
+        
+
+        marker_7acdf867d97b630e48203ee71c27ffdf.bindPopup(popup_7cbe8ef585b61f8eb4ee7c1845f4990a)
+        ;
+
+        
+    
+    
+            var marker_fae59b2f2cf09d980287772beb35c1ea = L.marker(
+                [51.546506, -0.146426],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_7599dd2b63032f8ddd9f49f7a8b160ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fae59b2f2cf09d980287772beb35c1ea.setIcon(icon_7599dd2b63032f8ddd9f49f7a8b160ee);
+        
+    
+        var popup_c720d8bcc40856190447c81c5ee4c715 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47ef6b38cc31dc12d48a8d88660b8348 = $(`<div id="html_47ef6b38cc31dc12d48a8d88660b8348" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 18 PRINCE OF WALES ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_c720d8bcc40856190447c81c5ee4c715.setContent(html_47ef6b38cc31dc12d48a8d88660b8348);
+            
+        
+
+        marker_fae59b2f2cf09d980287772beb35c1ea.bindPopup(popup_c720d8bcc40856190447c81c5ee4c715)
+        ;
+
+        
+    
+    
+            var marker_182a14502ae719a478ba1f78d0997e96 = L.marker(
+                [51.550663, -0.140792],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_fa6186e222c7e6386b039b4a291538ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_182a14502ae719a478ba1f78d0997e96.setIcon(icon_fa6186e222c7e6386b039b4a291538ca);
+        
+    
+        var popup_83bee3245bb04a68c01c556cc368d1ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0764e46ce295d3ef0f1aabe314ac801d = $(`<div id="html_0764e46ce295d3ef0f1aabe314ac801d" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 8 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_83bee3245bb04a68c01c556cc368d1ce.setContent(html_0764e46ce295d3ef0f1aabe314ac801d);
+            
+        
+
+        marker_182a14502ae719a478ba1f78d0997e96.bindPopup(popup_83bee3245bb04a68c01c556cc368d1ce)
+        ;
+
+        
+    
+    
+            var marker_103c85ef862716a3fe157827ea8609af = L.marker(
+                [51.526545, -0.136697],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_f4fd12564fd9a4138df8c317c792fca3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_103c85ef862716a3fe157827ea8609af.setIcon(icon_f4fd12564fd9a4138df8c317c792fca3);
+        
+    
+        var popup_e336cef482c39412309c08638d01e370 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18efd3e5c5a696083a4e99ac2a65ab37 = $(`<div id="html_18efd3e5c5a696083a4e99ac2a65ab37" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 6 EUSTON STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_e336cef482c39412309c08638d01e370.setContent(html_18efd3e5c5a696083a4e99ac2a65ab37);
+            
+        
+
+        marker_103c85ef862716a3fe157827ea8609af.bindPopup(popup_e336cef482c39412309c08638d01e370)
+        ;
+
+        
+    
+    
+            var marker_4f9b7a2a45682b330f0392e07764fc88 = L.marker(
+                [51.555411, -0.139558],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_471dded1fa2b57d5fe990c0d9412e4df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4f9b7a2a45682b330f0392e07764fc88.setIcon(icon_471dded1fa2b57d5fe990c0d9412e4df);
+        
+    
+        var popup_16ae7e3e705c263e47441f3c6845347a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9aadd0a92845c2de3f8cc19c22f67dd = $(`<div id="html_e9aadd0a92845c2de3f8cc19c22f67dd" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 16 FORTESS ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_16ae7e3e705c263e47441f3c6845347a.setContent(html_e9aadd0a92845c2de3f8cc19c22f67dd);
+            
+        
+
+        marker_4f9b7a2a45682b330f0392e07764fc88.bindPopup(popup_16ae7e3e705c263e47441f3c6845347a)
+        ;
+
+        
+    
+    
+            var marker_6aacd97c543a1914b0503bb15587d2ca = L.marker(
+                [51.539286, -0.142972],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_19f5f2e27ac2731f32402b07fdefe725 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6aacd97c543a1914b0503bb15587d2ca.setIcon(icon_19f5f2e27ac2731f32402b07fdefe725);
+        
+    
+        var popup_ee81cf6f3412e079cce05e5102814179 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66cbf186a7d2beac41e324e9fe1f9fb0 = $(`<div id="html_66cbf186a7d2beac41e324e9fe1f9fb0" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 3 CAMDEN HIGH STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_ee81cf6f3412e079cce05e5102814179.setContent(html_66cbf186a7d2beac41e324e9fe1f9fb0);
+            
+        
+
+        marker_6aacd97c543a1914b0503bb15587d2ca.bindPopup(popup_ee81cf6f3412e079cce05e5102814179)
+        ;
+
+        
+    
+    
+            var marker_bbe0db8f7dcd8f7c4dddd986e71f3bce = L.marker(
+                [51.554266, -0.140235],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_72ac33ad985c839ca75c7565ef0f83f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bbe0db8f7dcd8f7c4dddd986e71f3bce.setIcon(icon_72ac33ad985c839ca75c7565ef0f83f5);
+        
+    
+        var popup_628ecde393d8b3a64993e1e29cf99d28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e90e1d7f5d89e8e988c6b2e2851c9ec = $(`<div id="html_9e90e1d7f5d89e8e988c6b2e2851c9ec" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 11 FORTESS ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_628ecde393d8b3a64993e1e29cf99d28.setContent(html_9e90e1d7f5d89e8e988c6b2e2851c9ec);
+            
+        
+
+        marker_bbe0db8f7dcd8f7c4dddd986e71f3bce.bindPopup(popup_628ecde393d8b3a64993e1e29cf99d28)
+        ;
+
+        
+    
+    
+            var marker_5ad7967bfe76ad757c722571c3828b20 = L.marker(
+                [51.516695, -0.128737],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_559c433cc8c21528fef35c90a67ae325 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5ad7967bfe76ad757c722571c3828b20.setIcon(icon_559c433cc8c21528fef35c90a67ae325);
+        
+    
+        var popup_78db1930b023c07931c989f12b13418d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a01303e80cf5b9999a2940095a91e14 = $(`<div id="html_2a01303e80cf5b9999a2940095a91e14" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 18 NEW OXFORD STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_78db1930b023c07931c989f12b13418d.setContent(html_2a01303e80cf5b9999a2940095a91e14);
+            
+        
+
+        marker_5ad7967bfe76ad757c722571c3828b20.bindPopup(popup_78db1930b023c07931c989f12b13418d)
+        ;
+
+        
+    
+    
+            var marker_f286a4e8db267fa456d937cd4a1b7c07 = L.marker(
+                [51.540844, -0.144418],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_be4074b4f9bda5a96150499ef6a555e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f286a4e8db267fa456d937cd4a1b7c07.setIcon(icon_be4074b4f9bda5a96150499ef6a555e0);
+        
+    
+        var popup_957c06eabcdf51d0215595d6250390e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dda72b45cffca9f131a8ee552ef0e0ea = $(`<div id="html_dda72b45cffca9f131a8ee552ef0e0ea" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 17 CAMDEN HIGH STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_957c06eabcdf51d0215595d6250390e2.setContent(html_dda72b45cffca9f131a8ee552ef0e0ea);
+            
+        
+
+        marker_f286a4e8db267fa456d937cd4a1b7c07.bindPopup(popup_957c06eabcdf51d0215595d6250390e2)
+        ;
+
+        
+    
+    
+            var marker_00e792cd42ef74c36c69a93a1b8c36c7 = L.marker(
+                [51.528642, -0.132118],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_3857a802e7097ba1ec1f36dfb073d9d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_00e792cd42ef74c36c69a93a1b8c36c7.setIcon(icon_3857a802e7097ba1ec1f36dfb073d9d4);
+        
+    
+        var popup_45252ba76e0fb4b46ab936129ccfb9d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c204ebf07f987988387e97c2130a1d95 = $(`<div id="html_c204ebf07f987988387e97c2130a1d95" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 4 EVERSHOLT STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_45252ba76e0fb4b46ab936129ccfb9d4.setContent(html_c204ebf07f987988387e97c2130a1d95);
+            
+        
+
+        marker_00e792cd42ef74c36c69a93a1b8c36c7.bindPopup(popup_45252ba76e0fb4b46ab936129ccfb9d4)
+        ;
+
+        
+    
+    
+            var marker_6840f405b8b1b08da39ef8e5d3eab42b = L.marker(
+                [51.551581, -0.140891],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_9a2a64748dc23fa1dd0de0f47fae063c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6840f405b8b1b08da39ef8e5d3eab42b.setIcon(icon_9a2a64748dc23fa1dd0de0f47fae063c);
+        
+    
+        var popup_6e7d13fc9db123c1c6006b537fe2ee28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b74d081f9145ceb17cc04874fead684f = $(`<div id="html_b74d081f9145ceb17cc04874fead684f" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 2 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_6e7d13fc9db123c1c6006b537fe2ee28.setContent(html_b74d081f9145ceb17cc04874fead684f);
+            
+        
+
+        marker_6840f405b8b1b08da39ef8e5d3eab42b.bindPopup(popup_6e7d13fc9db123c1c6006b537fe2ee28)
+        ;
+
+        
+    
+    
+            var marker_7aacf8a456ea41d931a629bf0a290b9b = L.marker(
+                [51.556459, -0.17836],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_e8228fdfde7de8c7639d821094807e1a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7aacf8a456ea41d931a629bf0a290b9b.setIcon(icon_e8228fdfde7de8c7639d821094807e1a);
+        
+    
+        var popup_26bdaed672771a47927f680ac08020f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9584777633465475614eefd90824b1c = $(`<div id="html_f9584777633465475614eefd90824b1c" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 11 HAMPSTEAD HIGH STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_26bdaed672771a47927f680ac08020f5.setContent(html_f9584777633465475614eefd90824b1c);
+            
+        
+
+        marker_7aacf8a456ea41d931a629bf0a290b9b.bindPopup(popup_26bdaed672771a47927f680ac08020f5)
+        ;
+
+        
+    
+    
+            var marker_c73cd3ea59c2f97a90d8efc1c7b7ba64 = L.marker(
+                [51.527247, -0.134717],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_e2c18f3947f9adb0765fe24c72ebe150 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c73cd3ea59c2f97a90d8efc1c7b7ba64.setIcon(icon_e2c18f3947f9adb0765fe24c72ebe150);
+        
+    
+        var popup_49f84ed64d05f1bc47ebc1d2b4d5a4d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d767fddb6862f7fbbd355e219a62230 = $(`<div id="html_2d767fddb6862f7fbbd355e219a62230" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 1 EUSTON STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_49f84ed64d05f1bc47ebc1d2b4d5a4d6.setContent(html_2d767fddb6862f7fbbd355e219a62230);
+            
+        
+
+        marker_c73cd3ea59c2f97a90d8efc1c7b7ba64.bindPopup(popup_49f84ed64d05f1bc47ebc1d2b4d5a4d6)
+        ;
+
+        
+    
+    
+            var marker_a91ff8a7a5ef743f7b6363f6091cf567 = L.marker(
+                [51.517743, -0.119785],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_0035a557ccb850a9158ef1fb0e161117 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a91ff8a7a5ef743f7b6363f6091cf567.setIcon(icon_0035a557ccb850a9158ef1fb0e161117);
+        
+    
+        var popup_5ffdbff25f9cd254d7c955f847682703 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10ea6d3eb725fc8e13410755e84a2976 = $(`<div id="html_10ea6d3eb725fc8e13410755e84a2976" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 23 HIGH HOLBORN<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_5ffdbff25f9cd254d7c955f847682703.setContent(html_10ea6d3eb725fc8e13410755e84a2976);
+            
+        
+
+        marker_a91ff8a7a5ef743f7b6363f6091cf567.bindPopup(popup_5ffdbff25f9cd254d7c955f847682703)
+        ;
+
+        
+    
+    
+            var marker_2fa021a5ad3c0ce3f64a5905d2936018 = L.marker(
+                [51.517598, -0.121052],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_4a8a00b91ebc1c5c9681d513c483a78a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2fa021a5ad3c0ce3f64a5905d2936018.setIcon(icon_4a8a00b91ebc1c5c9681d513c483a78a);
+        
+    
+        var popup_688dd50d04c902fdc67af7d37dc906e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a60ac171cad08bd695c8a411d8aa4190 = $(`<div id="html_a60ac171cad08bd695c8a411d8aa4190" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 27 HIGH HOLBORN<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_688dd50d04c902fdc67af7d37dc906e2.setContent(html_a60ac171cad08bd695c8a411d8aa4190);
+            
+        
+
+        marker_2fa021a5ad3c0ce3f64a5905d2936018.bindPopup(popup_688dd50d04c902fdc67af7d37dc906e2)
+        ;
+
+        
+    
+    
+            var marker_4f5cb44eca6a8dee369e3f480afa9285 = L.marker(
+                [51.518841, -0.132423],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_aa88434d963c26500198d1189b0b444d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4f5cb44eca6a8dee369e3f480afa9285.setIcon(icon_aa88434d963c26500198d1189b0b444d);
+        
+    
+        var popup_7a1cfc692dbb3c9df0ee3f84ba6da029 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_030cfc737586916be1f66a9edacf6b3c = $(`<div id="html_030cfc737586916be1f66a9edacf6b3c" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 10 TOTTENHAM COURT ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_7a1cfc692dbb3c9df0ee3f84ba6da029.setContent(html_030cfc737586916be1f66a9edacf6b3c);
+            
+        
+
+        marker_4f5cb44eca6a8dee369e3f480afa9285.bindPopup(popup_7a1cfc692dbb3c9df0ee3f84ba6da029)
+        ;
+
+        
+    
+    
+            var marker_dd2cd61fc69fb72d18794a502686c19a = L.marker(
+                [51.540543, -0.157649],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_f06eb346c5e5157e7e3408b29706ad8b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dd2cd61fc69fb72d18794a502686c19a.setIcon(icon_f06eb346c5e5157e7e3408b29706ad8b);
+        
+    
+        var popup_ed42f5fd8f96993341a4d2220a993e2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5c8de4a16200260cebc60e0d3660f0d = $(`<div id="html_f5c8de4a16200260cebc60e0d3660f0d" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 17 REGENT'S PARK ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_ed42f5fd8f96993341a4d2220a993e2e.setContent(html_f5c8de4a16200260cebc60e0d3660f0d);
+            
+        
+
+        marker_dd2cd61fc69fb72d18794a502686c19a.bindPopup(popup_ed42f5fd8f96993341a4d2220a993e2e)
+        ;
+
+        
+    
+    
+            var marker_c2b5f447b789050590f5526f5d0d31fa = L.marker(
+                [51.540353, -0.135547],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_7374db1dbc3f99dbcfcc463c3e258a2c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c2b5f447b789050590f5526f5d0d31fa.setIcon(icon_7374db1dbc3f99dbcfcc463c3e258a2c);
+        
+    
+        var popup_f61176d4285d1cfee999fcd8bfbbfc75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1dda7884cdaca6bd47a9abe176ffb9a = $(`<div id="html_f1dda7884cdaca6bd47a9abe176ffb9a" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 20 ST PANCRAS WAY<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_f61176d4285d1cfee999fcd8bfbbfc75.setContent(html_f1dda7884cdaca6bd47a9abe176ffb9a);
+            
+        
+
+        marker_c2b5f447b789050590f5526f5d0d31fa.bindPopup(popup_f61176d4285d1cfee999fcd8bfbbfc75)
+        ;
+
+        
+    
+    
+            var marker_7f9d6757bfc1ac6ed825045e4998b8d8 = L.marker(
+                [51.541187, -0.144984],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_69e6b245bbe0833628622a972726b0d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7f9d6757bfc1ac6ed825045e4998b8d8.setIcon(icon_69e6b245bbe0833628622a972726b0d6);
+        
+    
+        var popup_ce34cf1ddff462e936f0478bf5db5ca7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63f7193661b3cedf10e1eeeaae53160a = $(`<div id="html_63f7193661b3cedf10e1eeeaae53160a" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 21 CAMDEN HIGH STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_ce34cf1ddff462e936f0478bf5db5ca7.setContent(html_63f7193661b3cedf10e1eeeaae53160a);
+            
+        
+
+        marker_7f9d6757bfc1ac6ed825045e4998b8d8.bindPopup(popup_ce34cf1ddff462e936f0478bf5db5ca7)
+        ;
+
+        
+    
+    
+            var marker_2dc2c2ade2bb8899158138ddcc48b621 = L.marker(
+                [51.550811, -0.155307],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_6cea36a8651fd59730e239287fbfe44f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2dc2c2ade2bb8899158138ddcc48b621.setIcon(icon_6cea36a8651fd59730e239287fbfe44f);
+        
+    
+        var popup_abfce53b23261e738e139dd3db8b8df6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6d19810c94abddad515200a3a2a6e28 = $(`<div id="html_f6d19810c94abddad515200a3a2a6e28" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 27 MALDEN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_abfce53b23261e738e139dd3db8b8df6.setContent(html_f6d19810c94abddad515200a3a2a6e28);
+            
+        
+
+        marker_2dc2c2ade2bb8899158138ddcc48b621.bindPopup(popup_abfce53b23261e738e139dd3db8b8df6)
+        ;
+
+        
+    
+    
+            var marker_a6d530ada489792d2422cb6d5cd827de = L.marker(
+                [51.52086, -0.123178],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_de0e13c43e89db4602843306ebb7a85d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a6d530ada489792d2422cb6d5cd827de.setIcon(icon_de0e13c43e89db4602843306ebb7a85d);
+        
+    
+        var popup_685cd5e3dd6e1c78806b84cb808aaba9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b709567852cbff5bea809dec7d9e816 = $(`<div id="html_0b709567852cbff5bea809dec7d9e816" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 17 SOUTHAMPTON ROW<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_685cd5e3dd6e1c78806b84cb808aaba9.setContent(html_0b709567852cbff5bea809dec7d9e816);
+            
+        
+
+        marker_a6d530ada489792d2422cb6d5cd827de.bindPopup(popup_685cd5e3dd6e1c78806b84cb808aaba9)
+        ;
+
+        
+    
+    
+            var marker_ae913cb7674f1a3a0e1a28aafe6063ca = L.marker(
+                [51.551712, -0.192009],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_988ff9e9b68dfb8b40c7b127f931fbd7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ae913cb7674f1a3a0e1a28aafe6063ca.setIcon(icon_988ff9e9b68dfb8b40c7b127f931fbd7);
+        
+    
+        var popup_7c45efac93714bd2440cf5ee34cd7a1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_367e99173fb074471f42f8238a79e5dd = $(`<div id="html_367e99173fb074471f42f8238a79e5dd" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 62 WEST END LANE<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_7c45efac93714bd2440cf5ee34cd7a1e.setContent(html_367e99173fb074471f42f8238a79e5dd);
+            
+        
+
+        marker_ae913cb7674f1a3a0e1a28aafe6063ca.bindPopup(popup_7c45efac93714bd2440cf5ee34cd7a1e)
+        ;
+
+        
+    
+    
+            var marker_a2d682b191af8a643415b1dff1d99085 = L.marker(
+                [51.538518, -0.193921],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_e952bae015207d9b9a626bbf8a23e2a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a2d682b191af8a643415b1dff1d99085.setIcon(icon_e952bae015207d9b9a626bbf8a23e2a4);
+        
+    
+        var popup_cfbaa4d9c6e95e25fa4223071229de0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08bac3a0f3ae24a057683757dcf574c5 = $(`<div id="html_08bac3a0f3ae24a057683757dcf574c5" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column  KILBURN HIGH ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_cfbaa4d9c6e95e25fa4223071229de0b.setContent(html_08bac3a0f3ae24a057683757dcf574c5);
+            
+        
+
+        marker_a2d682b191af8a643415b1dff1d99085.bindPopup(popup_cfbaa4d9c6e95e25fa4223071229de0b)
+        ;
+
+        
+    
+    
+            var marker_14ac7450726c8511b554e8c6696cd1ac = L.marker(
+                [51.538035, -0.193628],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_050949f8277fab354e972ea443829d8f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_14ac7450726c8511b554e8c6696cd1ac.setIcon(icon_050949f8277fab354e972ea443829d8f);
+        
+    
+        var popup_8bd77e71d8779c3de0ecf3a16745e246 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a871dd0adf0d74fe893d2bc0c8858a66 = $(`<div id="html_a871dd0adf0d74fe893d2bc0c8858a66" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column  KILBURN HIGH ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_8bd77e71d8779c3de0ecf3a16745e246.setContent(html_a871dd0adf0d74fe893d2bc0c8858a66);
+            
+        
+
+        marker_14ac7450726c8511b554e8c6696cd1ac.bindPopup(popup_8bd77e71d8779c3de0ecf3a16745e246)
+        ;
+
+        
+    
+    
+            var marker_f47faeef0d0007506163b344dcae6dbc = L.marker(
+                [51.550858, -0.15575],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_8836c73551b5c021ae3ef5ca5d191f29 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f47faeef0d0007506163b344dcae6dbc.setIcon(icon_8836c73551b5c021ae3ef5ca5d191f29);
+        
+    
+        var popup_2cf5f8c58b302780275ddc50ca11ab3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_871a58f9571cc6b1f7f9da8ecd39e924 = $(`<div id="html_871a58f9571cc6b1f7f9da8ecd39e924" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 29 MALDEN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_2cf5f8c58b302780275ddc50ca11ab3a.setContent(html_871a58f9571cc6b1f7f9da8ecd39e924);
+            
+        
+
+        marker_f47faeef0d0007506163b344dcae6dbc.bindPopup(popup_2cf5f8c58b302780275ddc50ca11ab3a)
+        ;
+
+        
+    
+    
+            var marker_d0df38dbc228d0800c0c37c2f7ce4924 = L.marker(
+                [51.551688, -0.192279],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_0d799168d2c41e2bfd47f34119b4c89f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d0df38dbc228d0800c0c37c2f7ce4924.setIcon(icon_0d799168d2c41e2bfd47f34119b4c89f);
+        
+    
+        var popup_f3d4b8bd9291c8c03559c60d1f2c7072 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf634f5952acb796d6f82fdc84319733 = $(`<div id="html_bf634f5952acb796d6f82fdc84319733" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 63 WEST END LANE<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_f3d4b8bd9291c8c03559c60d1f2c7072.setContent(html_bf634f5952acb796d6f82fdc84319733);
+            
+        
+
+        marker_d0df38dbc228d0800c0c37c2f7ce4924.bindPopup(popup_f3d4b8bd9291c8c03559c60d1f2c7072)
+        ;
+
+        
+    
+    
+            var marker_8b6eb2cba5dad5b733de3c5808c12559 = L.marker(
+                [51.551322, -0.16596],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_9e3447bb754fbafb70660538e54e335e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8b6eb2cba5dad5b733de3c5808c12559.setIcon(icon_9e3447bb754fbafb70660538e54e335e);
+        
+    
+        var popup_bc7534b1ae1218fe297d5e2da54437c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c6bf034cd3985cd0a6f4bc4f773dd68 = $(`<div id="html_8c6bf034cd3985cd0a6f4bc4f773dd68" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 42 HAVERSTOCK HILL<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_bc7534b1ae1218fe297d5e2da54437c6.setContent(html_8c6bf034cd3985cd0a6f4bc4f773dd68);
+            
+        
+
+        marker_8b6eb2cba5dad5b733de3c5808c12559.bindPopup(popup_bc7534b1ae1218fe297d5e2da54437c6)
+        ;
+
+        
+    
+    
+            var marker_de58c076685279b18be90b62b98d1126 = L.marker(
+                [51.517046, -0.126365],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_3ada5f14b24c4daa837a25d9ea288d13 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_de58c076685279b18be90b62b98d1126.setIcon(icon_3ada5f14b24c4daa837a25d9ea288d13);
+        
+    
+        var popup_786130c3a616eb31f48223d812b6c233 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdd6094bc1ee606e6cd694b9d48acf09 = $(`<div id="html_fdd6094bc1ee606e6cd694b9d48acf09" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 12 NEW OXFORD STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_786130c3a616eb31f48223d812b6c233.setContent(html_fdd6094bc1ee606e6cd694b9d48acf09);
+            
+        
+
+        marker_de58c076685279b18be90b62b98d1126.bindPopup(popup_786130c3a616eb31f48223d812b6c233)
+        ;
+
+        
+    
+    
+            var marker_70b8147c7c6d24f15ac80b615a8e27a0 = L.marker(
+                [51.55612, -0.177423],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_3edef79ed116fb7ed2d918c3c83763ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_70b8147c7c6d24f15ac80b615a8e27a0.setIcon(icon_3edef79ed116fb7ed2d918c3c83763ff);
+        
+    
+        var popup_26bc53d2f86a89bbb1e6b7a21eacec31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47a112d4e394a718d5a5b2c9615308b0 = $(`<div id="html_47a112d4e394a718d5a5b2c9615308b0" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 9 HAMPSTEAD HIGH STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_26bc53d2f86a89bbb1e6b7a21eacec31.setContent(html_47a112d4e394a718d5a5b2c9615308b0);
+            
+        
+
+        marker_70b8147c7c6d24f15ac80b615a8e27a0.bindPopup(popup_26bc53d2f86a89bbb1e6b7a21eacec31)
+        ;
+
+        
+    
+    
+            var marker_afa175b65db69dc91e57954c90943c26 = L.marker(
+                [51.524133, -0.129014],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_66a996635371d554f170b403b156da6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_afa175b65db69dc91e57954c90943c26.setIcon(icon_66a996635371d554f170b403b156da6d);
+        
+    
+        var popup_9cb2811d5d4dc11fdb8e58654d45bc0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e8606a42c93c621f7bf2124b060d3be = $(`<div id="html_8e8606a42c93c621f7bf2124b060d3be" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column  TAVISTOCK SQUARE<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_9cb2811d5d4dc11fdb8e58654d45bc0d.setContent(html_8e8606a42c93c621f7bf2124b060d3be);
+            
+        
+
+        marker_afa175b65db69dc91e57954c90943c26.bindPopup(popup_9cb2811d5d4dc11fdb8e58654d45bc0d)
+        ;
+
+        
+    
+    
+            var marker_208197c8699d960d8d2d0300d75c48d6 = L.marker(
+                [51.550633, -0.165229],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_6940a338b80df282f34e5035fa8166b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_208197c8699d960d8d2d0300d75c48d6.setIcon(icon_6940a338b80df282f34e5035fa8166b0);
+        
+    
+        var popup_8dfbd36e353f0f69f00e5ddbe563200e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc14a6e2ba35470b6e01890a97b03696 = $(`<div id="html_fc14a6e2ba35470b6e01890a97b03696" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 39 HAVERSTOCK HILL<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_8dfbd36e353f0f69f00e5ddbe563200e.setContent(html_fc14a6e2ba35470b6e01890a97b03696);
+            
+        
+
+        marker_208197c8699d960d8d2d0300d75c48d6.bindPopup(popup_8dfbd36e353f0f69f00e5ddbe563200e)
+        ;
+
+        
+    
+    
+            var marker_10884d6f2ca8332185090d7fe18b2191 = L.marker(
+                [51.543649, -0.153307],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_7c226afad273fe93c27ed1e20539bcce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_10884d6f2ca8332185090d7fe18b2191.setIcon(icon_7c226afad273fe93c27ed1e20539bcce);
+        
+    
+        var popup_9f5b7c0d58e7183ad72b95bab1324b44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96504c6a04d99ac0a27a813c7d572eed = $(`<div id="html_96504c6a04d99ac0a27a813c7d572eed" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 3 REGENT'S PARK ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_9f5b7c0d58e7183ad72b95bab1324b44.setContent(html_96504c6a04d99ac0a27a813c7d572eed);
+            
+        
+
+        marker_10884d6f2ca8332185090d7fe18b2191.bindPopup(popup_9f5b7c0d58e7183ad72b95bab1324b44)
+        ;
+
+        
+    
+    
+            var marker_86dac9878a705bd4ad06851bb71ab16d = L.marker(
+                [51.546623, -0.142455],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_9e2bba38709505d5e9042a70912b93c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_86dac9878a705bd4ad06851bb71ab16d.setIcon(icon_9e2bba38709505d5e9042a70912b93c7);
+        
+    
+        var popup_0a6ccd0a98f2e5e02688a72fc0b6f00c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0d06580b1c8fa79e75444a5229d04fb = $(`<div id="html_d0d06580b1c8fa79e75444a5229d04fb" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 26 PRINCE OF WALES ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_0a6ccd0a98f2e5e02688a72fc0b6f00c.setContent(html_d0d06580b1c8fa79e75444a5229d04fb);
+            
+        
+
+        marker_86dac9878a705bd4ad06851bb71ab16d.bindPopup(popup_0a6ccd0a98f2e5e02688a72fc0b6f00c)
+        ;
+
+        
+    
+    
+            var marker_8dc1e59e4f3520071475dce25ab66f4c = L.marker(
+                [51.547438, -0.141583],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_485fb21e60a327215c26aad7a38cfcb1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8dc1e59e4f3520071475dce25ab66f4c.setIcon(icon_485fb21e60a327215c26aad7a38cfcb1);
+        
+    
+        var popup_e6c96b783ef96969a78404e6190151c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_742f7825c6f365eac9120affaff35f21 = $(`<div id="html_742f7825c6f365eac9120affaff35f21" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 26 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_e6c96b783ef96969a78404e6190151c7.setContent(html_742f7825c6f365eac9120affaff35f21);
+            
+        
+
+        marker_8dc1e59e4f3520071475dce25ab66f4c.bindPopup(popup_e6c96b783ef96969a78404e6190151c7)
+        ;
+
+        
+    
+    
+            var marker_045e8158e7071069d368e1e85dc75eac = L.marker(
+                [51.544329, -0.140883],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_e7e4fdb730d91eb7ca0f38ba45eb9ddb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_045e8158e7071069d368e1e85dc75eac.setIcon(icon_e7e4fdb730d91eb7ca0f38ba45eb9ddb);
+        
+    
+        var popup_1802da10c4c1756c123a9d1218e63163 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4450a2a9aba5b5bee068a58175c35c58 = $(`<div id="html_4450a2a9aba5b5bee068a58175c35c58" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 35 ROYAL COLLEGE STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_1802da10c4c1756c123a9d1218e63163.setContent(html_4450a2a9aba5b5bee068a58175c35c58);
+            
+        
+
+        marker_045e8158e7071069d368e1e85dc75eac.bindPopup(popup_1802da10c4c1756c123a9d1218e63163)
+        ;
+
+        
+    
+    
+            var marker_73ed87d330c91d1b199cb13b96ae012d = L.marker(
+                [51.523849, -0.129679],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_5e07b1df633400b0688bbc4350088ceb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_73ed87d330c91d1b199cb13b96ae012d.setIcon(icon_5e07b1df633400b0688bbc4350088ceb);
+        
+    
+        var popup_d9a29a522e4c23f9457e5571a4f5a93f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8be79a830a26e9a8d1c747472cf3ca53 = $(`<div id="html_8be79a830a26e9a8d1c747472cf3ca53" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 1 GORDON SQUARE<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_d9a29a522e4c23f9457e5571a4f5a93f.setContent(html_8be79a830a26e9a8d1c747472cf3ca53);
+            
+        
+
+        marker_73ed87d330c91d1b199cb13b96ae012d.bindPopup(popup_d9a29a522e4c23f9457e5571a4f5a93f)
+        ;
+
+        
+    
+    
+            var marker_dde4d9c6a04ba4dcdc54c43c19a93cb1 = L.marker(
+                [51.529063, -0.132591],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_1508d7940cae305e8adbb2a8ddf0da3f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dde4d9c6a04ba4dcdc54c43c19a93cb1.setIcon(icon_1508d7940cae305e8adbb2a8ddf0da3f);
+        
+    
+        var popup_2b8458b7e11ddbba6b95b198c59914ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_130cc10002fb5ace60b748fc2215c0c3 = $(`<div id="html_130cc10002fb5ace60b748fc2215c0c3" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 6 EVERSHOLT STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_2b8458b7e11ddbba6b95b198c59914ca.setContent(html_130cc10002fb5ace60b748fc2215c0c3);
+            
+        
+
+        marker_dde4d9c6a04ba4dcdc54c43c19a93cb1.bindPopup(popup_2b8458b7e11ddbba6b95b198c59914ca)
+        ;
+
+        
+    
+    
+            var marker_2793bd57a86ba5234a84c7eed2974ec5 = L.marker(
+                [51.550335, -0.151119],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_92e8a5f5371b6f99fa0361cc0eaa197f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2793bd57a86ba5234a84c7eed2974ec5.setIcon(icon_92e8a5f5371b6f99fa0361cc0eaa197f);
+        
+    
+        var popup_0da7e1f33b690baf5f00f548e7cb456b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c70d12ed998497ca590ca7de0a0a132 = $(`<div id="html_5c70d12ed998497ca590ca7de0a0a132" style="width: 100.0%; height: 100.0%;">Name: Shared Digital Guest at Queen's Crescent Library<br>Type: Shared Digital Guest<br>Range: 10m</div>`)[0];
+                popup_0da7e1f33b690baf5f00f548e7cb456b.setContent(html_5c70d12ed998497ca590ca7de0a0a132);
+            
+        
+
+        marker_2793bd57a86ba5234a84c7eed2974ec5.bindPopup(popup_0da7e1f33b690baf5f00f548e7cb456b)
+        ;
+
+        
+    
+    
+            var marker_14184a46cb159189840a0911bc9feceb = L.marker(
+                [51.55071, -0.19137],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_12b494842d71ff55954512442d455c17 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_14184a46cb159189840a0911bc9feceb.setIcon(icon_12b494842d71ff55954512442d455c17);
+        
+    
+        var popup_0c7cbffe44fd707cbb54460d66167ca9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce1515eeabbcb340ecfd07eadda78266 = $(`<div id="html_ce1515eeabbcb340ecfd07eadda78266" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 58 WEST END LANE<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_0c7cbffe44fd707cbb54460d66167ca9.setContent(html_ce1515eeabbcb340ecfd07eadda78266);
+            
+        
+
+        marker_14184a46cb159189840a0911bc9feceb.bindPopup(popup_0c7cbffe44fd707cbb54460d66167ca9)
+        ;
+
+        
+    
+    
+            var marker_a4405d45e17d47aba01d60375302020a = L.marker(
+                [51.546683, -0.144828],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_53789a33ba0f70fa9b9327410c9fbbe2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a4405d45e17d47aba01d60375302020a.setIcon(icon_53789a33ba0f70fa9b9327410c9fbbe2);
+        
+    
+        var popup_db69850d3d432535a3f14e2952d1c0ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5276b65c782aa5de3b05cb5d53bc1f4 = $(`<div id="html_b5276b65c782aa5de3b05cb5d53bc1f4" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 21 PRINCE OF WALES ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_db69850d3d432535a3f14e2952d1c0ed.setContent(html_b5276b65c782aa5de3b05cb5d53bc1f4);
+            
+        
+
+        marker_a4405d45e17d47aba01d60375302020a.bindPopup(popup_db69850d3d432535a3f14e2952d1c0ed)
+        ;
+
+        
+    
+    
+            var marker_765b26c89e2e1667847993834746cfeb = L.marker(
+                [51.52029, -0.133889],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_a6d5b01c29e17b7e21f3096289bcc860 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_765b26c89e2e1667847993834746cfeb.setIcon(icon_a6d5b01c29e17b7e21f3096289bcc860);
+        
+    
+        var popup_47cac6bc71d2ed41d10f484813a46556 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c0fdf1d53b81c4d82220f8562e1ac3c = $(`<div id="html_4c0fdf1d53b81c4d82220f8562e1ac3c" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 17 TOTTENHAM COURT ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_47cac6bc71d2ed41d10f484813a46556.setContent(html_4c0fdf1d53b81c4d82220f8562e1ac3c);
+            
+        
+
+        marker_765b26c89e2e1667847993834746cfeb.bindPopup(popup_47cac6bc71d2ed41d10f484813a46556)
+        ;
+
+        
+    
+    
+            var marker_ab3cdbf3c5dc0119719438d9fce6f53c = L.marker(
+                [51.543199, -0.150092],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_1194b1f38e8e1bc28ee1af1464c86730 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ab3cdbf3c5dc0119719438d9fce6f53c.setIcon(icon_1194b1f38e8e1bc28ee1af1464c86730);
+        
+    
+        var popup_db69c4724395c9846bcdcf231ed699fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_748c69bf4b5a8c36bce411b84c0e95bd = $(`<div id="html_748c69bf4b5a8c36bce411b84c0e95bd" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 23 CHALK FARM ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_db69c4724395c9846bcdcf231ed699fc.setContent(html_748c69bf4b5a8c36bce411b84c0e95bd);
+            
+        
+
+        marker_ab3cdbf3c5dc0119719438d9fce6f53c.bindPopup(popup_db69c4724395c9846bcdcf231ed699fc)
+        ;
+
+        
+    
+    
+            var marker_79882c376c8f908c5c54173190f94ef6 = L.marker(
+                [51.554115, -0.165027],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_e2bb8829cf27447ac5ee317687f012f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_79882c376c8f908c5c54173190f94ef6.setIcon(icon_e2bb8829cf27447ac5ee317687f012f6);
+        
+    
+        var popup_ac2ede41c4dfce88a9d0a8232c1d1500 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98d526235b391564f4d27b14782c3bd9 = $(`<div id="html_98d526235b391564f4d27b14782c3bd9" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on CCTV Column  POND STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_ac2ede41c4dfce88a9d0a8232c1d1500.setContent(html_98d526235b391564f4d27b14782c3bd9);
+            
+        
+
+        marker_79882c376c8f908c5c54173190f94ef6.bindPopup(popup_ac2ede41c4dfce88a9d0a8232c1d1500)
+        ;
+
+        
+    
+    
+            var marker_6918acaf7e7879d4fa8de19956e4c217 = L.marker(
+                [51.521115, -0.115518],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_29f40056fd44043dd5e8676538e602ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6918acaf7e7879d4fa8de19956e4c217.setIcon(icon_29f40056fd44043dd5e8676538e602ea);
+        
+    
+        var popup_d22c8fd2ae7001d1035406158908b197 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00c25358718f2ca0845927b453d2bfe7 = $(`<div id="html_00c25358718f2ca0845927b453d2bfe7" style="width: 100.0%; height: 100.0%;">Name: Shared Digital Guest at Holborn Library<br>Type: Shared Digital Guest<br>Range: 10m</div>`)[0];
+                popup_d22c8fd2ae7001d1035406158908b197.setContent(html_00c25358718f2ca0845927b453d2bfe7);
+            
+        
+
+        marker_6918acaf7e7879d4fa8de19956e4c217.bindPopup(popup_d22c8fd2ae7001d1035406158908b197)
+        ;
+
+        
+    
+    
+            var marker_60145f882c02876fabd3c44ae1d8bcd4 = L.marker(
+                [51.541699, -0.145547],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_5b1a3a34543c8da5fd5a854787dbbc82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_60145f882c02876fabd3c44ae1d8bcd4.setIcon(icon_5b1a3a34543c8da5fd5a854787dbbc82);
+        
+    
+        var popup_d916f3d2ac7ccffbae3f8f35702b654e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_465b35838eeac7be23c8ff107b1888de = $(`<div id="html_465b35838eeac7be23c8ff107b1888de" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 22 CHALK FARM ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_d916f3d2ac7ccffbae3f8f35702b654e.setContent(html_465b35838eeac7be23c8ff107b1888de);
+            
+        
+
+        marker_60145f882c02876fabd3c44ae1d8bcd4.bindPopup(popup_d916f3d2ac7ccffbae3f8f35702b654e)
+        ;
+
+        
+    
+    
+            var marker_c69ea1e76abcc116fcdcec10021e0a86 = L.marker(
+                [51.554934, -0.139918],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_89dba581f4348058cec7818507747477 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c69ea1e76abcc116fcdcec10021e0a86.setIcon(icon_89dba581f4348058cec7818507747477);
+        
+    
+        var popup_940658ab4dd3797067578094323d2021 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1b1273b55c0273a003c54703a9abcd6 = $(`<div id="html_a1b1273b55c0273a003c54703a9abcd6" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 14 FORTESS ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_940658ab4dd3797067578094323d2021.setContent(html_a1b1273b55c0273a003c54703a9abcd6);
+            
+        
+
+        marker_c69ea1e76abcc116fcdcec10021e0a86.bindPopup(popup_940658ab4dd3797067578094323d2021)
+        ;
+
+        
+    
+    
+            var marker_a9b4f9d2b6f934f038eddf287915a0db = L.marker(
+                [51.55612, -0.138877],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_8014aa8ca26cee12b39745c81c11274f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a9b4f9d2b6f934f038eddf287915a0db.setIcon(icon_8014aa8ca26cee12b39745c81c11274f);
+        
+    
+        var popup_6b0093fb946a5783179129a2c8af570c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10287919b6d6394302cfc874cee1b14f = $(`<div id="html_10287919b6d6394302cfc874cee1b14f" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 19 FORTESS ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_6b0093fb946a5783179129a2c8af570c.setContent(html_10287919b6d6394302cfc874cee1b14f);
+            
+        
+
+        marker_a9b4f9d2b6f934f038eddf287915a0db.bindPopup(popup_6b0093fb946a5783179129a2c8af570c)
+        ;
+
+        
+    
+    
+            var marker_38f89e8923196e8f08106f5a99055fff = L.marker(
+                [51.542357, -0.173271],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_ab5c7c74c6b1b0ea94c0898ef35b4d93 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_38f89e8923196e8f08106f5a99055fff.setIcon(icon_ab5c7c74c6b1b0ea94c0898ef35b4d93);
+        
+    
+        var popup_8de078716c499fffe27390e961fc138c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d33f715e31f090e5ab47021cb5065c3e = $(`<div id="html_d33f715e31f090e5ab47021cb5065c3e" style="width: 100.0%; height: 100.0%;">Name: Shared Digital Guest at Swiss Cottage Library<br>Type: Shared Digital Guest<br>Range: 10m</div>`)[0];
+                popup_8de078716c499fffe27390e961fc138c.setContent(html_d33f715e31f090e5ab47021cb5065c3e);
+            
+        
+
+        marker_38f89e8923196e8f08106f5a99055fff.bindPopup(popup_8de078716c499fffe27390e961fc138c)
+        ;
+
+        
+    
+    
+            var marker_b855b7f1a70fcee4ba20289ae484a29c = L.marker(
+                [51.55443, -0.165703],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_df7f5b9187e9537c7b565a9ac9748c52 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b855b7f1a70fcee4ba20289ae484a29c.setIcon(icon_df7f5b9187e9537c7b565a9ac9748c52);
+        
+    
+        var popup_1ac147e17536b440de919ca9c02e3d97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb1cbd578a3b5d0665a17e885fddc8c8 = $(`<div id="html_cb1cbd578a3b5d0665a17e885fddc8c8" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 12 SOUTH END ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_1ac147e17536b440de919ca9c02e3d97.setContent(html_cb1cbd578a3b5d0665a17e885fddc8c8);
+            
+        
+
+        marker_b855b7f1a70fcee4ba20289ae484a29c.bindPopup(popup_1ac147e17536b440de919ca9c02e3d97)
+        ;
+
+        
+    
+    
+            var marker_2702c4fd66d260491ae9dff057966aa4 = L.marker(
+                [51.541237, -0.157352],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_2f64ab67386489246ed07926470b77f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2702c4fd66d260491ae9dff057966aa4.setIcon(icon_2f64ab67386489246ed07926470b77f7);
+        
+    
+        var popup_10910b286150b49f65b3b28233418f33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7810add17ffed64665b523b2f232bf9 = $(`<div id="html_f7810add17ffed64665b523b2f232bf9" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 15 REGENT'S PARK ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_10910b286150b49f65b3b28233418f33.setContent(html_f7810add17ffed64665b523b2f232bf9);
+            
+        
+
+        marker_2702c4fd66d260491ae9dff057966aa4.bindPopup(popup_10910b286150b49f65b3b28233418f33)
+        ;
+
+        
+    
+    
+            var marker_ecc2e6441e6decd842d03aa527144140 = L.marker(
+                [51.543433, -0.151149],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_986e78f14639644fc5d45019cb7e1f68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ecc2e6441e6decd842d03aa527144140.setIcon(icon_986e78f14639644fc5d45019cb7e1f68);
+        
+    
+        var popup_06ba26bd61ee420cb1f3511592999f6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8572da893f9f7c00cf3a7e768ba285a7 = $(`<div id="html_8572da893f9f7c00cf3a7e768ba285a7" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 27 CHALK FARM ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_06ba26bd61ee420cb1f3511592999f6c.setContent(html_8572da893f9f7c00cf3a7e768ba285a7);
+            
+        
+
+        marker_ecc2e6441e6decd842d03aa527144140.bindPopup(popup_06ba26bd61ee420cb1f3511592999f6c)
+        ;
+
+        
+    
+    
+            var marker_930a47218ea547f5a7fd501af4e26830 = L.marker(
+                [51.536344, -0.191208],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_51db3fd50bd2c26d63108d0619b2db23 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_930a47218ea547f5a7fd501af4e26830.setIcon(icon_51db3fd50bd2c26d63108d0619b2db23);
+        
+    
+        var popup_e26c6f212ac33f6f6348995f6a6b0c64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8de5ba10e550dd54d4d39f1b56ae5e31 = $(`<div id="html_8de5ba10e550dd54d4d39f1b56ae5e31" style="width: 100.0%; height: 100.0%;">Name: Shared Digital Guest at Kilburn Library<br>Type: Shared Digital Guest<br>Range: 10m</div>`)[0];
+                popup_e26c6f212ac33f6f6348995f6a6b0c64.setContent(html_8de5ba10e550dd54d4d39f1b56ae5e31);
+            
+        
+
+        marker_930a47218ea547f5a7fd501af4e26830.bindPopup(popup_e26c6f212ac33f6f6348995f6a6b0c64)
+        ;
+
+        
+    
+    
+            var marker_dcdc849a53ca0be8295193fb6cffad60 = L.marker(
+                [51.554001, -0.16612],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_8f1400f0158456b5bee40f48633131cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dcdc849a53ca0be8295193fb6cffad60.setIcon(icon_8f1400f0158456b5bee40f48633131cf);
+        
+    
+        var popup_b45d882fbf4746a0768b077ea0ce1bef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1392fa91fd7e2a91281b044ba5ceff61 = $(`<div id="html_1392fa91fd7e2a91281b044ba5ceff61" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 7 POND STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_b45d882fbf4746a0768b077ea0ce1bef.setContent(html_1392fa91fd7e2a91281b044ba5ceff61);
+            
+        
+
+        marker_dcdc849a53ca0be8295193fb6cffad60.bindPopup(popup_b45d882fbf4746a0768b077ea0ce1bef)
+        ;
+
+        
+    
+    
+            var marker_b82c8d57715ecf901c122c2f62fae73d = L.marker(
+                [51.546711, -0.143417],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_4d2263756f4e52f76be810dba97bbe64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b82c8d57715ecf901c122c2f62fae73d.setIcon(icon_4d2263756f4e52f76be810dba97bbe64);
+        
+    
+        var popup_fb49001080abc78009fab66e58237c1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7725d110995c139e97afd30e7fff3e88 = $(`<div id="html_7725d110995c139e97afd30e7fff3e88" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on CCTV Column  PRINCE OF WALES ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_fb49001080abc78009fab66e58237c1a.setContent(html_7725d110995c139e97afd30e7fff3e88);
+            
+        
+
+        marker_b82c8d57715ecf901c122c2f62fae73d.bindPopup(popup_fb49001080abc78009fab66e58237c1a)
+        ;
+
+        
+    
+    
+            var marker_5ad5147c8a8af74dc1329425568c7fe1 = L.marker(
+                [51.541789, -0.156707],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_081666d024f95b082598ccc397dc561c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5ad5147c8a8af74dc1329425568c7fe1.setIcon(icon_081666d024f95b082598ccc397dc561c);
+        
+    
+        var popup_46fad0de75f566d2bdb5988dcf22dd50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_870a3d26dc987ccd5d572883a4e0fd3a = $(`<div id="html_870a3d26dc987ccd5d572883a4e0fd3a" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 13 REGENT'S PARK ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_46fad0de75f566d2bdb5988dcf22dd50.setContent(html_870a3d26dc987ccd5d572883a4e0fd3a);
+            
+        
+
+        marker_5ad5147c8a8af74dc1329425568c7fe1.bindPopup(popup_46fad0de75f566d2bdb5988dcf22dd50)
+        ;
+
+        
+    
+    
+            var marker_a4ae81596f68ae9a0cb4f68cd673223e = L.marker(
+                [51.517464, -0.12187],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_338e66799ffd72e6f5959e7391627b5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a4ae81596f68ae9a0cb4f68cd673223e.setIcon(icon_338e66799ffd72e6f5959e7391627b5b);
+        
+    
+        var popup_776a01acada4180432c8bd7ed7e511cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bf03ce7eeb683a2de457bff7888410a = $(`<div id="html_7bf03ce7eeb683a2de457bff7888410a" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 29 HIGH HOLBORN<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_776a01acada4180432c8bd7ed7e511cc.setContent(html_7bf03ce7eeb683a2de457bff7888410a);
+            
+        
+
+        marker_a4ae81596f68ae9a0cb4f68cd673223e.bindPopup(popup_776a01acada4180432c8bd7ed7e511cc)
+        ;
+
+        
+    
+    
+            var marker_78a1b326d1d838bfe2bf090f31820819 = L.marker(
+                [51.554539, -0.140222],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_4bf9497e5b03d2bc351396e4805da210 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_78a1b326d1d838bfe2bf090f31820819.setIcon(icon_4bf9497e5b03d2bc351396e4805da210);
+        
+    
+        var popup_435a709feb4afd6d46d0569b5d2c628b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a4acd0979f9aff9479ae515625e3cad = $(`<div id="html_3a4acd0979f9aff9479ae515625e3cad" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 12 FORTESS ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_435a709feb4afd6d46d0569b5d2c628b.setContent(html_3a4acd0979f9aff9479ae515625e3cad);
+            
+        
+
+        marker_78a1b326d1d838bfe2bf090f31820819.bindPopup(popup_435a709feb4afd6d46d0569b5d2c628b)
+        ;
+
+        
+    
+    
+            var marker_df20eba400adb1fe21ef48ff9afc826a = L.marker(
+                [51.5522, -0.141161],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_d728913fd5ce1c70e20dcc5404332600 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_df20eba400adb1fe21ef48ff9afc826a.setIcon(icon_d728913fd5ce1c70e20dcc5404332600);
+        
+    
+        var popup_054b7ce6b0a37a4fad8ea9b7a8a30320 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7440d648d7d431da027707cbce1847d6 = $(`<div id="html_7440d648d7d431da027707cbce1847d6" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 2 FORTESS ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_054b7ce6b0a37a4fad8ea9b7a8a30320.setContent(html_7440d648d7d431da027707cbce1847d6);
+            
+        
+
+        marker_df20eba400adb1fe21ef48ff9afc826a.bindPopup(popup_054b7ce6b0a37a4fad8ea9b7a8a30320)
+        ;
+
+        
+    
+    
+            var marker_c207b51ddfc3a73ccca0b8267a6eb463 = L.marker(
+                [51.519781, -0.133357],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_2d6d595a4dce16246b44bd782cd9853e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c207b51ddfc3a73ccca0b8267a6eb463.setIcon(icon_2d6d595a4dce16246b44bd782cd9853e);
+        
+    
+        var popup_df3184fb42e3aad79dc83d66a9a1ebcd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6b1c1eff1f50702a7ad256d50614ee1 = $(`<div id="html_a6b1c1eff1f50702a7ad256d50614ee1" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 14 TOTTENHAM COURT ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_df3184fb42e3aad79dc83d66a9a1ebcd.setContent(html_a6b1c1eff1f50702a7ad256d50614ee1);
+            
+        
+
+        marker_c207b51ddfc3a73ccca0b8267a6eb463.bindPopup(popup_df3184fb42e3aad79dc83d66a9a1ebcd)
+        ;
+
+        
+    
+    
+            var marker_80bb1bc193169a73d7384e7dd20ff63b = L.marker(
+                [51.539693, -0.142414],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_06fb3e3572cda3723299f33b2af3c269 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_80bb1bc193169a73d7384e7dd20ff63b.setIcon(icon_06fb3e3572cda3723299f33b2af3c269);
+        
+    
+        var popup_5bc93e3c4de5fdcc26853b8cf1e9d316 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c68df9daf2529d045c89dc7a3c7cdf40 = $(`<div id="html_c68df9daf2529d045c89dc7a3c7cdf40" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 66 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_5bc93e3c4de5fdcc26853b8cf1e9d316.setContent(html_c68df9daf2529d045c89dc7a3c7cdf40);
+            
+        
+
+        marker_80bb1bc193169a73d7384e7dd20ff63b.bindPopup(popup_5bc93e3c4de5fdcc26853b8cf1e9d316)
+        ;
+
+        
+    
+    
+            var marker_07ea693488f1d3753e4fd4a96e28724b = L.marker(
+                [51.541554, -0.197453],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_dfba2f5dd443398028fa941db3fbfca5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_07ea693488f1d3753e4fd4a96e28724b.setIcon(icon_dfba2f5dd443398028fa941db3fbfca5);
+        
+    
+        var popup_c0d3f188527589d44cabbfa6e8811185 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3dcc14f7434ad894387fe94e2a683eca = $(`<div id="html_3dcc14f7434ad894387fe94e2a683eca" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column  KILBURN HIGH ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_c0d3f188527589d44cabbfa6e8811185.setContent(html_3dcc14f7434ad894387fe94e2a683eca);
+            
+        
+
+        marker_07ea693488f1d3753e4fd4a96e28724b.bindPopup(popup_c0d3f188527589d44cabbfa6e8811185)
+        ;
+
+        
+    
+    
+            var marker_74f5f4feb70d7a8c45fad5a95fa5bc02 = L.marker(
+                [51.548156, -0.14115],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_96104442cc92ea37d77f98ecad7b79ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_74f5f4feb70d7a8c45fad5a95fa5bc02.setIcon(icon_96104442cc92ea37d77f98ecad7b79ad);
+        
+    
+        var popup_5b755684600aa77f0f88b86447fce1b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_684b0ab5a934ff76279c5160e490350e = $(`<div id="html_684b0ab5a934ff76279c5160e490350e" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 22 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_5b755684600aa77f0f88b86447fce1b0.setContent(html_684b0ab5a934ff76279c5160e490350e);
+            
+        
+
+        marker_74f5f4feb70d7a8c45fad5a95fa5bc02.bindPopup(popup_5b755684600aa77f0f88b86447fce1b0)
+        ;
+
+        
+    
+    
+            var marker_fc7eaa981de457a79dc2b2bb380f250f = L.marker(
+                [51.542557, -0.141793],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_de4c014fb8390cc3bb749048892bad16 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fc7eaa981de457a79dc2b2bb380f250f.setIcon(icon_de4c014fb8390cc3bb749048892bad16);
+        
+    
+        var popup_f4f340d2299382d5cda4c0a9de414c2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40c66b8ee5f53e7d65e316d78379b91a = $(`<div id="html_40c66b8ee5f53e7d65e316d78379b91a" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 53 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_f4f340d2299382d5cda4c0a9de414c2d.setContent(html_40c66b8ee5f53e7d65e316d78379b91a);
+            
+        
+
+        marker_fc7eaa981de457a79dc2b2bb380f250f.bindPopup(popup_f4f340d2299382d5cda4c0a9de414c2d)
+        ;
+
+        
+    
+    
+            var marker_743f0f4e16a996a897a1cb6daa23ed82 = L.marker(
+                [51.523065, -0.119246],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_624efad7869a4a4f65566f31949cee8c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_743f0f4e16a996a897a1cb6daa23ed82.setIcon(icon_624efad7869a4a4f65566f31949cee8c);
+        
+    
+        var popup_e0f6bbcc9d0a89db039a3459361bd4e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e730c5173e67a1774988e467971e2252 = $(`<div id="html_e730c5173e67a1774988e467971e2252" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 13 LAMB'S CONDUIT STREET<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_e0f6bbcc9d0a89db039a3459361bd4e6.setContent(html_e730c5173e67a1774988e467971e2252);
+            
+        
+
+        marker_743f0f4e16a996a897a1cb6daa23ed82.bindPopup(popup_e0f6bbcc9d0a89db039a3459361bd4e6)
+        ;
+
+        
+    
+    
+            var marker_bdb2a801fca370e685eb99b273e2d37e = L.marker(
+                [51.55292, -0.140884],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_edd408e5c527d8ff2d8219dae7f4ff03 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bdb2a801fca370e685eb99b273e2d37e.setIcon(icon_edd408e5c527d8ff2d8219dae7f4ff03);
+        
+    
+        var popup_89b299063927171ef30255146717b853 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a766522234526aebb89b07b54ebfe72f = $(`<div id="html_a766522234526aebb89b07b54ebfe72f" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 5 FORTESS ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_89b299063927171ef30255146717b853.setContent(html_a766522234526aebb89b07b54ebfe72f);
+            
+        
+
+        marker_bdb2a801fca370e685eb99b273e2d37e.bindPopup(popup_89b299063927171ef30255146717b853)
+        ;
+
+        
+    
+    
+            var marker_c9f8f8689ba1a3004e6d11ee73bf014e = L.marker(
+                [51.545339, -0.141577],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_4db32a23100ca01ef657994f9dbc7ddd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c9f8f8689ba1a3004e6d11ee73bf014e.setIcon(icon_4db32a23100ca01ef657994f9dbc7ddd);
+        
+    
+        var popup_266f833eb22ec9f882a3f6521f22bda5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a88c6c9f04fee0d2dc6e7137b9d67945 = $(`<div id="html_a88c6c9f04fee0d2dc6e7137b9d67945" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on CCTV Column  KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_266f833eb22ec9f882a3f6521f22bda5.setContent(html_a88c6c9f04fee0d2dc6e7137b9d67945);
+            
+        
+
+        marker_c9f8f8689ba1a3004e6d11ee73bf014e.bindPopup(popup_266f833eb22ec9f882a3f6521f22bda5)
+        ;
+
+        
+    
+    
+            var marker_f1e493ac7df0bb5e5e44c51f3d281b95 = L.marker(
+                [51.534241, -0.137288],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_35af8c7f3f8acd302e5cec146a7d828f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f1e493ac7df0bb5e5e44c51f3d281b95.setIcon(icon_35af8c7f3f8acd302e5cec146a7d828f);
+        
+    
+        var popup_b8691f522aa11421c4a8e687a6ca5ffc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea6967b65af329fe33f645457a7490cb = $(`<div id="html_ea6967b65af329fe33f645457a7490cb" style="width: 100.0%; height: 100.0%;">Name: Shared Digital Guest at Camden Town Library<br>Type: Shared Digital Guest<br>Range: 10m</div>`)[0];
+                popup_b8691f522aa11421c4a8e687a6ca5ffc.setContent(html_ea6967b65af329fe33f645457a7490cb);
+            
+        
+
+        marker_f1e493ac7df0bb5e5e44c51f3d281b95.bindPopup(popup_b8691f522aa11421c4a8e687a6ca5ffc)
+        ;
+
+        
+    
+    
+            var marker_ca4a3c8a324b4e5e43fa5811ecea45b4 = L.marker(
+                [51.521307, -0.134979],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_45bd44a3217c7bd8240c2e8981b97a02 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ca4a3c8a324b4e5e43fa5811ecea45b4.setIcon(icon_45bd44a3217c7bd8240c2e8981b97a02);
+        
+    
+        var popup_f3e82d41a94f7b7ccaeda635fc8686a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94a885f1c9c4bf4700e5033542904e7a = $(`<div id="html_94a885f1c9c4bf4700e5033542904e7a" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 24 TOTTENHAM COURT ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_f3e82d41a94f7b7ccaeda635fc8686a7.setContent(html_94a885f1c9c4bf4700e5033542904e7a);
+            
+        
+
+        marker_ca4a3c8a324b4e5e43fa5811ecea45b4.bindPopup(popup_f3e82d41a94f7b7ccaeda635fc8686a7)
+        ;
+
+        
+    
+    
+            var marker_ea32e8ef8abb70b0d601b4504e318fd4 = L.marker(
+                [51.520387, -0.122608],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_7eabc7f06156f31c9e85b17685c05154 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ea32e8ef8abb70b0d601b4504e318fd4.setIcon(icon_7eabc7f06156f31c9e85b17685c05154);
+        
+    
+        var popup_b5ad5037395920d9b0f6bc7834258d67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0e71daa0b4d968feb50209283ffbff3 = $(`<div id="html_d0e71daa0b4d968feb50209283ffbff3" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 14 SOUTHAMPTON ROW<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_b5ad5037395920d9b0f6bc7834258d67.setContent(html_d0e71daa0b4d968feb50209283ffbff3);
+            
+        
+
+        marker_ea32e8ef8abb70b0d601b4504e318fd4.bindPopup(popup_b5ad5037395920d9b0f6bc7834258d67)
+        ;
+
+        
+    
+    
+            var marker_bce5f649e00636cb3919c79f81ab92a3 = L.marker(
+                [51.540335, -0.142142],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_3244d8710f6bad0f5003316123d4793f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_bce5f649e00636cb3919c79f81ab92a3.setIcon(icon_3244d8710f6bad0f5003316123d4793f);
+        
+    
+        var popup_a6c304010cb11873dc223ece4e86c48c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afefeb6fe46e65e61c6aa19d4abd1d5e = $(`<div id="html_afefeb6fe46e65e61c6aa19d4abd1d5e" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on CCTV Column  KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_a6c304010cb11873dc223ece4e86c48c.setContent(html_afefeb6fe46e65e61c6aa19d4abd1d5e);
+            
+        
+
+        marker_bce5f649e00636cb3919c79f81ab92a3.bindPopup(popup_a6c304010cb11873dc223ece4e86c48c)
+        ;
+
+        
+    
+    
+            var marker_ecb30aa841839f3f701cf3626a3f0f4a = L.marker(
+                [51.550712, -0.154847],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_d7de8918f508c91f8463295d68110b26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ecb30aa841839f3f701cf3626a3f0f4a.setIcon(icon_d7de8918f508c91f8463295d68110b26);
+        
+    
+        var popup_31330991f60fbdc8da347fd0a57d3c7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ebec8880cf9ed27f05fe6e8e994515e = $(`<div id="html_3ebec8880cf9ed27f05fe6e8e994515e" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 25 MALDEN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_31330991f60fbdc8da347fd0a57d3c7e.setContent(html_3ebec8880cf9ed27f05fe6e8e994515e);
+            
+        
+
+        marker_ecb30aa841839f3f701cf3626a3f0f4a.bindPopup(popup_31330991f60fbdc8da347fd0a57d3c7e)
+        ;
+
+        
+    
+    
+            var marker_59fecfe1f0fbad740af77dc4eabcc515 = L.marker(
+                [51.552711, -0.168022],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_600e3e960dac27e5f80b63e83fd22b98 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_59fecfe1f0fbad740af77dc4eabcc515.setIcon(icon_600e3e960dac27e5f80b63e83fd22b98);
+        
+    
+        var popup_d7e5b9471b610ab2c0c0e50d87cfb919 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28fe7a9642ca46e8401042812de1c26e = $(`<div id="html_28fe7a9642ca46e8401042812de1c26e" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on CCTV Column 2 ROSSLYN HILL<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_d7e5b9471b610ab2c0c0e50d87cfb919.setContent(html_28fe7a9642ca46e8401042812de1c26e);
+            
+        
+
+        marker_59fecfe1f0fbad740af77dc4eabcc515.bindPopup(popup_d7e5b9471b610ab2c0c0e50d87cfb919)
+        ;
+
+        
+    
+    
+            var marker_a0c027ce37aec78f363bd0880cdfdaef = L.marker(
+                [51.5497, -0.140941],
+                {
+}
+            ).addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+    
+            var icon_dc1a5f9596c2a9db63951ba2e75a5207 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wifi",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a0c027ce37aec78f363bd0880cdfdaef.setIcon(icon_dc1a5f9596c2a9db63951ba2e75a5207);
+        
+    
+        var popup_619617b0ec115a9324b007464eab65c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59dc0ff563f17c11a4eae1e19c1d9e27 = $(`<div id="html_59dc0ff563f17c11a4eae1e19c1d9e27" style="width: 100.0%; height: 100.0%;">Name: Public Wi-Fi on Lighting Column 14 KENTISH TOWN ROAD<br>Type: Public Wi-Fi<br>Range: 30m</div>`)[0];
+                popup_619617b0ec115a9324b007464eab65c6.setContent(html_59dc0ff563f17c11a4eae1e19c1d9e27);
+            
+        
+
+        marker_a0c027ce37aec78f363bd0880cdfdaef.bindPopup(popup_619617b0ec115a9324b007464eab65c6)
+        ;
+
+        
+    
+    
+            var heat_map_a0f29b7f6d93e41186b4635afdaa9859 = L.heatLayer(
+                [[51.55408, -0.140543], [51.542949, -0.148846], [51.539768, -0.143277], [51.543768, -0.14001], [51.516822, -0.127893], [51.536398, -0.191453], [51.529487, -0.133055], [51.554444, -0.165373], [51.551571, -0.166593], [51.546164, -0.141902], [51.55537, -0.139588], [51.540498, -0.14407], [51.540113, -0.143688], [51.556595, -0.138524], [51.556227, -0.178002], [51.540952, -0.196727], [51.550408, -0.154364], [51.552118, -0.141702], [51.551163, -0.140803], [51.542226, -0.156009], [51.544052, -0.141447], [51.533651, -0.126585], [51.550992, -0.191426], [51.542661, -0.155361], [51.563791, -0.144066], [51.555253, -0.166076], [51.540143, -0.195751], [51.552342, -0.16736], [51.518288, -0.13189], [51.543499, -0.141815], [51.553754, -0.163719], [51.550212, -0.191689], [51.540107, -0.135593], [51.540776, -0.135437], [51.528192, -0.13162], [51.540846, -0.142212], [51.546521, -0.145327], [51.54999, -0.140513], [51.546524, -0.141658], [51.543631, -0.151775], [51.539632, -0.135263], [51.553655, -0.140806], [51.517721, -0.120234], [51.546698, -0.143853], [51.526945, -0.135501], [51.549298, -0.141047], [51.552102, -0.192972], [51.546506, -0.146426], [51.550663, -0.140792], [51.526545, -0.136697], [51.555411, -0.139558], [51.539286, -0.142972], [51.554266, -0.140235], [51.516695, -0.128737], [51.540844, -0.144418], [51.528642, -0.132118], [51.551581, -0.140891], [51.556459, -0.17836], [51.527247, -0.134717], [51.517743, -0.119785], [51.517598, -0.121052], [51.518841, -0.132423], [51.540543, -0.157649], [51.540353, -0.135547], [51.541187, -0.144984], [51.550811, -0.155307], [51.52086, -0.123178], [51.551712, -0.192009], [51.538518, -0.193921], [51.538035, -0.193628], [51.550858, -0.15575], [51.551688, -0.192279], [51.551322, -0.16596], [51.517046, -0.126365], [51.55612, -0.177423], [51.524133, -0.129014], [51.550633, -0.165229], [51.543649, -0.153307], [51.546623, -0.142455], [51.547438, -0.141583], [51.544329, -0.140883], [51.523849, -0.129679], [51.529063, -0.132591], [51.550335, -0.151119], [51.55071, -0.19137], [51.546683, -0.144828], [51.52029, -0.133889], [51.543199, -0.150092], [51.554115, -0.165027], [51.521115, -0.115518], [51.541699, -0.145547], [51.554934, -0.139918], [51.55612, -0.138877], [51.542357, -0.173271], [51.55443, -0.165703], [51.541237, -0.157352], [51.543433, -0.151149], [51.536344, -0.191208], [51.554001, -0.16612], [51.546711, -0.143417], [51.541789, -0.156707], [51.517464, -0.12187], [51.554539, -0.140222], [51.5522, -0.141161], [51.519781, -0.133357], [51.539693, -0.142414], [51.541554, -0.197453], [51.548156, -0.14115], [51.542557, -0.141793], [51.523065, -0.119246], [51.55292, -0.140884], [51.545339, -0.141577], [51.534241, -0.137288], [51.521307, -0.134979], [51.520387, -0.122608], [51.540335, -0.142142], [51.550712, -0.154847], [51.552711, -0.168022], [51.5497, -0.140941]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 18,
+  "radius": 25,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_a0f29b7f6d93e41186b4635afdaa9859.addTo(map_a99a2fbbe22c29f9ac2b4f477013211c);
+        
+</script>
+</html>
