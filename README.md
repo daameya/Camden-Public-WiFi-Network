@@ -45,5 +45,5 @@ pip install -r requirements.txt
 5. Run Jupyter notebook research.ipynb
 
 ## Interactive Map:
-[![Interactive Map Link](D:\Python Projects\Camden-Public-WiFi-Network\camden_wifi_map.html)](https://camdenwifimap.tiiny.site)
+[![Interactive Map Link](🗺)](https://camdenwifimap.tiiny.site)
 ## [Back Up](#Camden-Public-WiFi-Network)
