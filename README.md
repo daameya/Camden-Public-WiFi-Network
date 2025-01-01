@@ -6,7 +6,7 @@ Create an Accessibility Heatmap, a Histogram of Coverage Ranges, and Key Insight
 
 ## Contents
 - [Accessibility Heatmap](#accessibility-heatmap)
-- [Camden Public WiFi Network](#camden-public-wifi-network)
+- [Interactive Camden Public WiFi Network Map](#interactive-camden-public-wifi-network-map)
 - [What You'll Learn](#what-youll-learn)
 - [Getting Started](#getting-started)
 
