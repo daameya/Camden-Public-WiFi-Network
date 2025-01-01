@@ -13,8 +13,8 @@ Create an Accessibility Heatmap, a Histogram of Coverage Ranges, and Key Insight
 ## Accessibility Heatmap
 ![Accessibility Heatmap](assets/camden-wifi-accessibility.png)
 
-## Camden Public WiFi Network
-![Camden Public WiFi Network](assets/camden-wifi.png)
+## Interactive Camden Public WiFi Network Map
+[![Camden Public WiFi Network](assets/camden-wifi.png)](https://camdenwifimap.tiiny.site)
 
 ## What You'll Learn
 
@@ -44,6 +44,4 @@ pip install -r requirements.txt
 
 5. Run Jupyter notebook research.ipynb
 
-## Interactive Map:
-[![Interactive Map Link](🗺)](https://camdenwifimap.tiiny.site)
 ## [Back Up](#Camden-Public-WiFi-Network)
