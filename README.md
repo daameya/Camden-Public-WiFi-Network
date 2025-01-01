@@ -46,5 +46,4 @@ pip install -r requirements.txt
 
 ## Interactive Map:
 ![Interactive Map Link](https://camdenwifimap.tiiny.site)
-
 ## [Back Up](#Camden-Public-WiFi-Network)
